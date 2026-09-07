@@ -1,0 +1,579 @@
+{
+  "mapped": [
+    {
+      "project": "ai-rail-crossing-inventory-and-coordination",
+      "sourceKey": "CrossingProgram",
+      "source": "/Volumes/external/projects/ai-rail-crossing-inventory-and-coordination/src/config/app.ts",
+      "canonical": "crossing-program",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-rail-crossing-inventory-and-coordination",
+      "sourceKey": "RailCrossing",
+      "source": "/Volumes/external/projects/ai-rail-crossing-inventory-and-coordination/src/config/app.ts",
+      "canonical": "rail-crossing",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-rail-crossing-inventory-and-coordination",
+      "sourceKey": "CrossingOwner",
+      "source": "/Volumes/external/projects/ai-rail-crossing-inventory-and-coordination/src/config/app.ts",
+      "canonical": "crossing-owner",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-rail-crossing-inventory-and-coordination",
+      "sourceKey": "WarningDevice",
+      "source": "/Volumes/external/projects/ai-rail-crossing-inventory-and-coordination/src/config/app.ts",
+      "canonical": "warning-device",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-rail-crossing-inventory-and-coordination",
+      "sourceKey": "CrossingInspection",
+      "source": "/Volumes/external/projects/ai-rail-crossing-inventory-and-coordination/src/config/app.ts",
+      "canonical": "crossing-inspection",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-rail-crossing-inventory-and-coordination",
+      "sourceKey": "TrafficObservation",
+      "source": "/Volumes/external/projects/ai-rail-crossing-inventory-and-coordination/src/config/app.ts",
+      "canonical": "traffic-observation",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-rail-crossing-inventory-and-coordination",
+      "sourceKey": "CrossingProject",
+      "source": "/Volumes/external/projects/ai-rail-crossing-inventory-and-coordination/src/config/app.ts",
+      "canonical": "crossing-project",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-rail-crossing-inventory-and-coordination",
+      "sourceKey": "InventoryChange",
+      "source": "/Volumes/external/projects/ai-rail-crossing-inventory-and-coordination/src/config/app.ts",
+      "canonical": "inventory-change",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-rail-crossing-inventory-and-coordination",
+      "sourceKey": "CrossingSubmission",
+      "source": "/Volumes/external/projects/ai-rail-crossing-inventory-and-coordination/src/config/app.ts",
+      "canonical": "crossing-submission",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-rail-crossing-inventory-and-coordination",
+      "sourceKey": "OperationalTask",
+      "source": "/Volumes/external/projects/ai-rail-crossing-inventory-and-coordination/src/config/app.ts",
+      "canonical": "operational-task",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-rail-crossing-inventory-and-coordination",
+      "sourceKey": "RuleVersion",
+      "source": "/Volumes/external/projects/ai-rail-crossing-inventory-and-coordination/src/config/app.ts",
+      "canonical": "rule-version",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-rail-crossing-inventory-and-coordination",
+      "sourceKey": "DocumentRequirement",
+      "source": "/Volumes/external/projects/ai-rail-crossing-inventory-and-coordination/src/config/app.ts",
+      "canonical": "document-requirement",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-rail-crossing-inventory-and-coordination",
+      "sourceKey": "inspection-change-extraction",
+      "source": "/Volumes/external/projects/ai-rail-crossing-inventory-and-coordination/src/config/app.ts",
+      "canonical": "inspection-change-extraction",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-rail-crossing-inventory-and-coordination",
+      "sourceKey": "owner-responsibility-review",
+      "source": "/Volumes/external/projects/ai-rail-crossing-inventory-and-coordination/src/config/app.ts",
+      "canonical": "owner-responsibility-review",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-rail-crossing-inventory-and-coordination",
+      "sourceKey": "device-record-reconciliation",
+      "source": "/Volumes/external/projects/ai-rail-crossing-inventory-and-coordination/src/config/app.ts",
+      "canonical": "device-record-reconciliation",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-rail-crossing-inventory-and-coordination",
+      "sourceKey": "project-coordination-brief",
+      "source": "/Volumes/external/projects/ai-rail-crossing-inventory-and-coordination/src/config/app.ts",
+      "canonical": "project-coordination-brief",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-rail-crossing-inventory-and-coordination",
+      "sourceKey": "inventory-discrepancy-packet",
+      "source": "/Volumes/external/projects/ai-rail-crossing-inventory-and-coordination/src/config/app.ts",
+      "canonical": "inventory-discrepancy-packet",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-rail-crossing-inventory-and-coordination",
+      "sourceKey": "agency-submission-narrative",
+      "source": "/Volumes/external/projects/ai-rail-crossing-inventory-and-coordination/src/config/app.ts",
+      "canonical": "agency-submission-narrative",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-rail-crossing-inventory-and-coordination",
+      "sourceKey": "evidence-completeness-review",
+      "source": "/Volumes/external/projects/ai-rail-crossing-inventory-and-coordination/src/config/app.ts",
+      "canonical": "evidence-completeness-review",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-rail-crossing-inventory-and-coordination",
+      "sourceKey": "operations-handoff-draft",
+      "source": "/Volumes/external/projects/ai-rail-crossing-inventory-and-coordination/src/config/app.ts",
+      "canonical": "operations-handoff-draft",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-rail-demurrage-accessorial-recovery",
+      "sourceKey": "rail-tariff-and-contract-library",
+      "source": "/Volumes/external/projects/ai-rail-demurrage-accessorial-recovery/app.config.mjs",
+      "canonical": "rail-tariff-and-contract-library",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-rail-demurrage-accessorial-recovery",
+      "sourceKey": "railcar-and-equipment-registry",
+      "source": "/Volumes/external/projects/ai-rail-demurrage-accessorial-recovery/app.config.mjs",
+      "canonical": "railcar-and-equipment-registry",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-rail-demurrage-accessorial-recovery",
+      "sourceKey": "waybill-ingestion",
+      "source": "/Volumes/external/projects/ai-rail-demurrage-accessorial-recovery/app.config.mjs",
+      "canonical": "waybill-ingestion",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-rail-demurrage-accessorial-recovery",
+      "sourceKey": "event-and-interchange-timeline",
+      "source": "/Volumes/external/projects/ai-rail-demurrage-accessorial-recovery/app.config.mjs",
+      "canonical": "event-and-interchange-timeline",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-rail-demurrage-accessorial-recovery",
+      "sourceKey": "actual-placement-calculation",
+      "source": "/Volumes/external/projects/ai-rail-demurrage-accessorial-recovery/app.config.mjs",
+      "canonical": "actual-placement-calculation",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-rail-demurrage-accessorial-recovery",
+      "sourceKey": "constructive-placement-calculation",
+      "source": "/Volumes/external/projects/ai-rail-demurrage-accessorial-recovery/app.config.mjs",
+      "canonical": "constructive-placement-calculation",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-rail-demurrage-accessorial-recovery",
+      "sourceKey": "free-time-calculation",
+      "source": "/Volumes/external/projects/ai-rail-demurrage-accessorial-recovery/app.config.mjs",
+      "canonical": "free-time-calculation",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-rail-demurrage-accessorial-recovery",
+      "sourceKey": "demurrage-recalculation",
+      "source": "/Volumes/external/projects/ai-rail-demurrage-accessorial-recovery/app.config.mjs",
+      "canonical": "demurrage-recalculation",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-rail-demurrage-accessorial-recovery",
+      "sourceKey": "storage-and-switching-audit",
+      "source": "/Volumes/external/projects/ai-rail-demurrage-accessorial-recovery/app.config.mjs",
+      "canonical": "storage-and-switching-audit",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-rail-demurrage-accessorial-recovery",
+      "sourceKey": "empty-return-rule-validation",
+      "source": "/Volumes/external/projects/ai-rail-demurrage-accessorial-recovery/app.config.mjs",
+      "canonical": "empty-return-rule-validation",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-rail-demurrage-accessorial-recovery",
+      "sourceKey": "bunching-and-carrier-delay-analysis",
+      "source": "/Volumes/external/projects/ai-rail-demurrage-accessorial-recovery/app.config.mjs",
+      "canonical": "bunching-and-carrier-delay-analysis",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-rail-demurrage-accessorial-recovery",
+      "sourceKey": "closure-and-force-majeure-evidence",
+      "source": "/Volumes/external/projects/ai-rail-demurrage-accessorial-recovery/app.config.mjs",
+      "canonical": "closure-and-force-majeure-evidence",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-rail-demurrage-accessorial-recovery",
+      "sourceKey": "invoice-validation",
+      "source": "/Volumes/external/projects/ai-rail-demurrage-accessorial-recovery/app.config.mjs",
+      "canonical": "invoice-validation",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-rail-demurrage-accessorial-recovery",
+      "sourceKey": "rail-dispute-package",
+      "source": "/Volumes/external/projects/ai-rail-demurrage-accessorial-recovery/app.config.mjs",
+      "canonical": "rail-dispute-package",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-rail-demurrage-accessorial-recovery",
+      "sourceKey": "carrier-credit-tracking",
+      "source": "/Volumes/external/projects/ai-rail-demurrage-accessorial-recovery/app.config.mjs",
+      "canonical": "carrier-credit-tracking",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-rail-demurrage-accessorial-recovery",
+      "sourceKey": "dwell-alerts-and-lane-analytics",
+      "source": "/Volumes/external/projects/ai-rail-demurrage-accessorial-recovery/app.config.mjs",
+      "canonical": "dwell-alerts-and-lane-analytics",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-rail-demurrage-accessorial-recovery",
+      "sourceKey": "analytics",
+      "source": "/Volumes/external/projects/ai-rail-demurrage-accessorial-recovery/frontend/src/App.jsx",
+      "canonical": "reports",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-rail-demurrage-accessorial-recovery",
+      "sourceKey": "audit",
+      "source": "/Volumes/external/projects/ai-rail-demurrage-accessorial-recovery/frontend/src/App.jsx",
+      "canonical": "audit",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-railcar-leasing-mileage-repair-settlement",
+      "sourceKey": "lease-agreement-library",
+      "source": "/Volumes/external/projects/ai-railcar-leasing-mileage-repair-settlement/app.config.mjs",
+      "canonical": "lease-agreement-library",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-railcar-leasing-mileage-repair-settlement",
+      "sourceKey": "railcar-mark-registry",
+      "source": "/Volumes/external/projects/ai-railcar-leasing-mileage-repair-settlement/app.config.mjs",
+      "canonical": "railcar-mark-registry",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-railcar-leasing-mileage-repair-settlement",
+      "sourceKey": "interchange-event-ingestion",
+      "source": "/Volumes/external/projects/ai-railcar-leasing-mileage-repair-settlement/app.config.mjs",
+      "canonical": "interchange-event-ingestion",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-railcar-leasing-mileage-repair-settlement",
+      "sourceKey": "loaded-empty-mileage",
+      "source": "/Volumes/external/projects/ai-railcar-leasing-mileage-repair-settlement/app.config.mjs",
+      "canonical": "loaded-empty-mileage",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-railcar-leasing-mileage-repair-settlement",
+      "sourceKey": "daily-rent-calculation",
+      "source": "/Volumes/external/projects/ai-railcar-leasing-mileage-repair-settlement/app.config.mjs",
+      "canonical": "daily-rent-calculation",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-railcar-leasing-mileage-repair-settlement",
+      "sourceKey": "mileage-allowance-calculation",
+      "source": "/Volumes/external/projects/ai-railcar-leasing-mileage-repair-settlement/app.config.mjs",
+      "canonical": "mileage-allowance-calculation",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-railcar-leasing-mileage-repair-settlement",
+      "sourceKey": "utilization-threshold-control",
+      "source": "/Volumes/external/projects/ai-railcar-leasing-mileage-repair-settlement/app.config.mjs",
+      "canonical": "utilization-threshold-control",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-railcar-leasing-mileage-repair-settlement",
+      "sourceKey": "bad-order-day-exclusion",
+      "source": "/Volumes/external/projects/ai-railcar-leasing-mileage-repair-settlement/app.config.mjs",
+      "canonical": "bad-order-day-exclusion",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-railcar-leasing-mileage-repair-settlement",
+      "sourceKey": "maintenance-responsibility",
+      "source": "/Volumes/external/projects/ai-railcar-leasing-mileage-repair-settlement/app.config.mjs",
+      "canonical": "maintenance-responsibility",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-railcar-leasing-mileage-repair-settlement",
+      "sourceKey": "repair-invoice-audit",
+      "source": "/Volumes/external/projects/ai-railcar-leasing-mileage-repair-settlement/app.config.mjs",
+      "canonical": "repair-invoice-audit",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-railcar-leasing-mileage-repair-settlement",
+      "sourceKey": "aar-rule-validation",
+      "source": "/Volumes/external/projects/ai-railcar-leasing-mileage-repair-settlement/app.config.mjs",
+      "canonical": "aar-rule-validation",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-railcar-leasing-mileage-repair-settlement",
+      "sourceKey": "owner-lessee-settlement",
+      "source": "/Volumes/external/projects/ai-railcar-leasing-mileage-repair-settlement/app.config.mjs",
+      "canonical": "owner-lessee-settlement",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-railcar-leasing-mileage-repair-settlement",
+      "sourceKey": "dispute-workflow",
+      "source": "/Volumes/external/projects/ai-railcar-leasing-mileage-repair-settlement/app.config.mjs",
+      "canonical": "dispute-workflow",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-railcar-leasing-mileage-repair-settlement",
+      "sourceKey": "cash-credit-reconciliation",
+      "source": "/Volumes/external/projects/ai-railcar-leasing-mileage-repair-settlement/app.config.mjs",
+      "canonical": "cash-credit-reconciliation",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-railcar-leasing-mileage-repair-settlement",
+      "sourceKey": "fleet-counterparty-analytics",
+      "source": "/Volumes/external/projects/ai-railcar-leasing-mileage-repair-settlement/app.config.mjs",
+      "canonical": "fleet-counterparty-analytics",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-railcar-leasing-mileage-repair-settlement",
+      "sourceKey": "analytics",
+      "source": "/Volumes/external/projects/ai-railcar-leasing-mileage-repair-settlement/frontend/src/App.jsx",
+      "canonical": "reports",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-railcar-leasing-mileage-repair-settlement",
+      "sourceKey": "audit",
+      "source": "/Volumes/external/projects/ai-railcar-leasing-mileage-repair-settlement/frontend/src/App.jsx",
+      "canonical": "audit",
+      "kind": "definition"
+    },
+    {
+      "project": "rail-maintenance-safety-operations-suite",
+      "sourceKey": "rules",
+      "source": "/Volumes/external/projects/rail-maintenance-safety-operations-suite/public/app.js",
+      "canonical": "rules",
+      "kind": "definition"
+    },
+    {
+      "project": "rail-maintenance-safety-operations-suite",
+      "sourceKey": "reports",
+      "source": "/Volumes/external/projects/rail-maintenance-safety-operations-suite/public/app.js",
+      "canonical": "reports",
+      "kind": "definition"
+    }
+  ],
+  "ignored": [
+    {
+      "project": "ai-rail-crossing-inventory-and-coordination",
+      "key": "/registers",
+      "source": "/Volumes/external/projects/ai-rail-crossing-inventory-and-coordination/src/config/app.ts",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "ai-rail-crossing-inventory-and-coordination",
+      "key": "/workflow",
+      "source": "/Volumes/external/projects/ai-rail-crossing-inventory-and-coordination/src/config/app.ts",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "ai-rail-crossing-inventory-and-coordination",
+      "key": "/delivery",
+      "source": "/Volumes/external/projects/ai-rail-crossing-inventory-and-coordination/src/config/app.ts",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "ai-rail-crossing-inventory-and-coordination",
+      "key": "/operations",
+      "source": "/Volumes/external/projects/ai-rail-crossing-inventory-and-coordination/src/config/app.ts",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "ai-rail-demurrage-accessorial-recovery",
+      "key": "dashboard",
+      "source": "/Volumes/external/projects/ai-rail-demurrage-accessorial-recovery/frontend/src/App.jsx",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "ai-railcar-leasing-mileage-repair-settlement",
+      "key": "dashboard",
+      "source": "/Volumes/external/projects/ai-railcar-leasing-mileage-repair-settlement/frontend/src/App.jsx",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "rail-maintenance-safety-operations-suite",
+      "key": "dashboard",
+      "source": "/Volumes/external/projects/rail-maintenance-safety-operations-suite/public/app.js",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "rail-maintenance-safety-operations-suite",
+      "key": "ai-center",
+      "source": "/Volumes/external/projects/rail-maintenance-safety-operations-suite/public/app.js",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    }
+  ],
+  "migrationWarnings": [
+    {
+      "feature": "rail-tariff-and-contract-library",
+      "reason": "Source calculation module missing; native records/drafts only."
+    },
+    {
+      "feature": "railcar-and-equipment-registry",
+      "reason": "Source calculation module missing; native records/drafts only."
+    },
+    {
+      "feature": "waybill-ingestion",
+      "reason": "Source calculation module missing; native records/drafts only."
+    },
+    {
+      "feature": "event-and-interchange-timeline",
+      "reason": "Source calculation module missing; native records/drafts only."
+    },
+    {
+      "feature": "actual-placement-calculation",
+      "reason": "Source calculation module missing; native records/drafts only."
+    },
+    {
+      "feature": "constructive-placement-calculation",
+      "reason": "Source calculation module missing; native records/drafts only."
+    },
+    {
+      "feature": "free-time-calculation",
+      "reason": "Source calculation module missing; native records/drafts only."
+    },
+    {
+      "feature": "demurrage-recalculation",
+      "reason": "Source calculation module missing; native records/drafts only."
+    },
+    {
+      "feature": "storage-and-switching-audit",
+      "reason": "Source calculation module missing; native records/drafts only."
+    },
+    {
+      "feature": "empty-return-rule-validation",
+      "reason": "Source calculation module missing; native records/drafts only."
+    },
+    {
+      "feature": "bunching-and-carrier-delay-analysis",
+      "reason": "Source calculation module missing; native records/drafts only."
+    },
+    {
+      "feature": "closure-and-force-majeure-evidence",
+      "reason": "Source calculation module missing; native records/drafts only."
+    },
+    {
+      "feature": "invoice-validation",
+      "reason": "Source calculation module missing; native records/drafts only."
+    },
+    {
+      "feature": "rail-dispute-package",
+      "reason": "Source calculation module missing; native records/drafts only."
+    },
+    {
+      "feature": "carrier-credit-tracking",
+      "reason": "Source calculation module missing; native records/drafts only."
+    },
+    {
+      "feature": "dwell-alerts-and-lane-analytics",
+      "reason": "Source calculation module missing; native records/drafts only."
+    },
+    {
+      "feature": "lease-agreement-library",
+      "reason": "Source calculation module missing; native records/drafts only."
+    },
+    {
+      "feature": "railcar-mark-registry",
+      "reason": "Source calculation module missing; native records/drafts only."
+    },
+    {
+      "feature": "interchange-event-ingestion",
+      "reason": "Source calculation module missing; native records/drafts only."
+    },
+    {
+      "feature": "loaded-empty-mileage",
+      "reason": "Source calculation module missing; native records/drafts only."
+    },
+    {
+      "feature": "daily-rent-calculation",
+      "reason": "Source calculation module missing; native records/drafts only."
+    },
+    {
+      "feature": "mileage-allowance-calculation",
+      "reason": "Source calculation module missing; native records/drafts only."
+    },
+    {
+      "feature": "utilization-threshold-control",
+      "reason": "Source calculation module missing; native records/drafts only."
+    },
+    {
+      "feature": "bad-order-day-exclusion",
+      "reason": "Source calculation module missing; native records/drafts only."
+    },
+    {
+      "feature": "maintenance-responsibility",
+      "reason": "Source calculation module missing; native records/drafts only."
+    },
+    {
+      "feature": "repair-invoice-audit",
+      "reason": "Source calculation module missing; native records/drafts only."
+    },
+    {
+      "feature": "aar-rule-validation",
+      "reason": "Source calculation module missing; native records/drafts only."
+    },
+    {
+      "feature": "owner-lessee-settlement",
+      "reason": "Source calculation module missing; native records/drafts only."
+    },
+    {
+      "feature": "dispute-workflow",
+      "reason": "Source calculation module missing; native records/drafts only."
+    },
+    {
+      "feature": "cash-credit-reconciliation",
+      "reason": "Source calculation module missing; native records/drafts only."
+    },
+    {
+      "feature": "fleet-counterparty-analytics",
+      "reason": "Source calculation module missing; native records/drafts only."
+    }
+  ]
+}

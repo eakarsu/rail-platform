@@ -1,0 +1,26 @@
+[
+  {
+    "id": "ai-rail-crossing-inventory-and-coordination",
+    "name": "Rail crossing inventory and coordination",
+    "sourceProject": "ai-rail-crossing-inventory-and-coordination",
+    "services": []
+  },
+  {
+    "id": "ai-rail-demurrage-accessorial-recovery",
+    "name": "Rail demurrage accessorial recovery",
+    "sourceProject": "ai-rail-demurrage-accessorial-recovery",
+    "services": []
+  },
+  {
+    "id": "ai-railcar-leasing-mileage-repair-settlement",
+    "name": "Railcar leasing mileage repair settlement",
+    "sourceProject": "ai-railcar-leasing-mileage-repair-settlement",
+    "services": []
+  },
+  {
+    "id": "rail-maintenance-safety-operations-suite",
+    "name": "Rail maintenance safety operations suite",
+    "sourceProject": "rail-maintenance-safety-operations-suite",
+    "services": []
+  }
+]

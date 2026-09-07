@@ -1,0 +1,325 @@
+[
+  {
+    "id": "ai-documents",
+    "title": "Writing, documents & knowledge",
+    "group": "AI assistants",
+    "path": "/assistants/ai-documents",
+    "featureIds": [
+      "notes",
+      "documents",
+      "templates",
+      "operations-handoff-draft"
+    ],
+    "ai": true,
+    "representativeId": "notes",
+    "description": "One assistant for 4 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "notes",
+        "title": "Notes",
+        "originalPath": "/features/notes"
+      },
+      {
+        "id": "documents",
+        "title": "Documents",
+        "originalPath": "/features/documents"
+      },
+      {
+        "id": "templates",
+        "title": "Templates",
+        "originalPath": "/features/templates"
+      },
+      {
+        "id": "operations-handoff-draft",
+        "title": "Operations handoff draft",
+        "originalPath": "/features/operations-handoff-draft"
+      }
+    ]
+  },
+  {
+    "id": "ai-general",
+    "title": "General assistance",
+    "group": "AI assistants",
+    "path": "/assistants/ai-general",
+    "featureIds": [
+      "rail-crossing",
+      "owner-responsibility-review",
+      "project-coordination-brief",
+      "inventory-discrepancy-packet",
+      "agency-submission-narrative",
+      "rail-tariff-and-contract-library",
+      "railcar-and-equipment-registry",
+      "waybill-ingestion",
+      "event-and-interchange-timeline",
+      "actual-placement-calculation",
+      "constructive-placement-calculation",
+      "free-time-calculation",
+      "demurrage-recalculation",
+      "rail-dispute-package",
+      "dwell-alerts-and-lane-analytics",
+      "lease-agreement-library",
+      "railcar-mark-registry",
+      "interchange-event-ingestion",
+      "loaded-empty-mileage",
+      "daily-rent-calculation",
+      "mileage-allowance-calculation",
+      "bad-order-day-exclusion",
+      "maintenance-responsibility",
+      "dispute-workflow",
+      "fleet-counterparty-analytics"
+    ],
+    "ai": true,
+    "representativeId": "rail-crossing",
+    "description": "One assistant for 25 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "rail-crossing",
+        "title": "Rail Crossing",
+        "originalPath": "/features/rail-crossing"
+      },
+      {
+        "id": "owner-responsibility-review",
+        "title": "Owner responsibility review",
+        "originalPath": "/features/owner-responsibility-review"
+      },
+      {
+        "id": "project-coordination-brief",
+        "title": "Project coordination brief",
+        "originalPath": "/features/project-coordination-brief"
+      },
+      {
+        "id": "inventory-discrepancy-packet",
+        "title": "Inventory discrepancy packet",
+        "originalPath": "/features/inventory-discrepancy-packet"
+      },
+      {
+        "id": "agency-submission-narrative",
+        "title": "Agency submission narrative",
+        "originalPath": "/features/agency-submission-narrative"
+      },
+      {
+        "id": "rail-tariff-and-contract-library",
+        "title": "Rail tariff and contract library",
+        "originalPath": "/features/rail-tariff-and-contract-library"
+      },
+      {
+        "id": "railcar-and-equipment-registry",
+        "title": "Railcar and equipment registry",
+        "originalPath": "/features/railcar-and-equipment-registry"
+      },
+      {
+        "id": "waybill-ingestion",
+        "title": "Waybill ingestion",
+        "originalPath": "/features/waybill-ingestion"
+      },
+      {
+        "id": "event-and-interchange-timeline",
+        "title": "Event and interchange timeline",
+        "originalPath": "/features/event-and-interchange-timeline"
+      },
+      {
+        "id": "actual-placement-calculation",
+        "title": "Actual placement calculation",
+        "originalPath": "/features/actual-placement-calculation"
+      },
+      {
+        "id": "constructive-placement-calculation",
+        "title": "Constructive placement calculation",
+        "originalPath": "/features/constructive-placement-calculation"
+      },
+      {
+        "id": "free-time-calculation",
+        "title": "Free-time calculation",
+        "originalPath": "/features/free-time-calculation"
+      },
+      {
+        "id": "demurrage-recalculation",
+        "title": "Demurrage recalculation",
+        "originalPath": "/features/demurrage-recalculation"
+      },
+      {
+        "id": "rail-dispute-package",
+        "title": "Rail dispute package",
+        "originalPath": "/features/rail-dispute-package"
+      },
+      {
+        "id": "dwell-alerts-and-lane-analytics",
+        "title": "Dwell alerts and lane analytics",
+        "originalPath": "/features/dwell-alerts-and-lane-analytics"
+      },
+      {
+        "id": "lease-agreement-library",
+        "title": "Lease agreement library",
+        "originalPath": "/features/lease-agreement-library"
+      },
+      {
+        "id": "railcar-mark-registry",
+        "title": "Railcar mark registry",
+        "originalPath": "/features/railcar-mark-registry"
+      },
+      {
+        "id": "interchange-event-ingestion",
+        "title": "Interchange event ingestion",
+        "originalPath": "/features/interchange-event-ingestion"
+      },
+      {
+        "id": "loaded-empty-mileage",
+        "title": "Loaded empty mileage",
+        "originalPath": "/features/loaded-empty-mileage"
+      },
+      {
+        "id": "daily-rent-calculation",
+        "title": "Daily rent calculation",
+        "originalPath": "/features/daily-rent-calculation"
+      },
+      {
+        "id": "mileage-allowance-calculation",
+        "title": "Mileage allowance calculation",
+        "originalPath": "/features/mileage-allowance-calculation"
+      },
+      {
+        "id": "bad-order-day-exclusion",
+        "title": "Bad-order day exclusion",
+        "originalPath": "/features/bad-order-day-exclusion"
+      },
+      {
+        "id": "maintenance-responsibility",
+        "title": "Maintenance responsibility",
+        "originalPath": "/features/maintenance-responsibility"
+      },
+      {
+        "id": "dispute-workflow",
+        "title": "Dispute workflow",
+        "originalPath": "/features/dispute-workflow"
+      },
+      {
+        "id": "fleet-counterparty-analytics",
+        "title": "Fleet counterparty analytics",
+        "originalPath": "/features/fleet-counterparty-analytics"
+      }
+    ]
+  },
+  {
+    "id": "ai-quality",
+    "title": "Risk, quality & compliance",
+    "group": "AI assistants",
+    "path": "/assistants/ai-quality",
+    "featureIds": [
+      "inspection-change-extraction",
+      "evidence-completeness-review",
+      "storage-and-switching-audit",
+      "empty-return-rule-validation",
+      "closure-and-force-majeure-evidence",
+      "utilization-threshold-control",
+      "aar-rule-validation"
+    ],
+    "ai": true,
+    "representativeId": "inspection-change-extraction",
+    "description": "One assistant for 7 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "inspection-change-extraction",
+        "title": "Inspection change extraction",
+        "originalPath": "/features/inspection-change-extraction"
+      },
+      {
+        "id": "evidence-completeness-review",
+        "title": "Evidence completeness review",
+        "originalPath": "/features/evidence-completeness-review"
+      },
+      {
+        "id": "storage-and-switching-audit",
+        "title": "Storage and switching audit",
+        "originalPath": "/features/storage-and-switching-audit"
+      },
+      {
+        "id": "empty-return-rule-validation",
+        "title": "Empty-return rule validation",
+        "originalPath": "/features/empty-return-rule-validation"
+      },
+      {
+        "id": "closure-and-force-majeure-evidence",
+        "title": "Closure and force-majeure evidence",
+        "originalPath": "/features/closure-and-force-majeure-evidence"
+      },
+      {
+        "id": "utilization-threshold-control",
+        "title": "Utilization threshold control",
+        "originalPath": "/features/utilization-threshold-control"
+      },
+      {
+        "id": "aar-rule-validation",
+        "title": "AAR rule validation",
+        "originalPath": "/features/aar-rule-validation"
+      }
+    ]
+  },
+  {
+    "id": "ai-finance",
+    "title": "Finance & reconciliation",
+    "group": "AI assistants",
+    "path": "/assistants/ai-finance",
+    "featureIds": [
+      "device-record-reconciliation",
+      "invoice-validation",
+      "carrier-credit-tracking",
+      "repair-invoice-audit",
+      "owner-lessee-settlement",
+      "cash-credit-reconciliation"
+    ],
+    "ai": true,
+    "representativeId": "device-record-reconciliation",
+    "description": "One assistant for 6 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "device-record-reconciliation",
+        "title": "Device record reconciliation",
+        "originalPath": "/features/device-record-reconciliation"
+      },
+      {
+        "id": "invoice-validation",
+        "title": "Invoice validation",
+        "originalPath": "/features/invoice-validation"
+      },
+      {
+        "id": "carrier-credit-tracking",
+        "title": "Carrier credit tracking",
+        "originalPath": "/features/carrier-credit-tracking"
+      },
+      {
+        "id": "repair-invoice-audit",
+        "title": "Repair invoice audit",
+        "originalPath": "/features/repair-invoice-audit"
+      },
+      {
+        "id": "owner-lessee-settlement",
+        "title": "Owner lessee settlement",
+        "originalPath": "/features/owner-lessee-settlement"
+      },
+      {
+        "id": "cash-credit-reconciliation",
+        "title": "Cash credit reconciliation",
+        "originalPath": "/features/cash-credit-reconciliation"
+      }
+    ]
+  },
+  {
+    "id": "ai-insights",
+    "title": "Insights & recommendations",
+    "group": "AI assistants",
+    "path": "/assistants/ai-insights",
+    "featureIds": [
+      "bunching-and-carrier-delay-analysis"
+    ],
+    "ai": true,
+    "representativeId": "bunching-and-carrier-delay-analysis",
+    "description": "One assistant for 1 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "bunching-and-carrier-delay-analysis",
+        "title": "Bunching and carrier-delay analysis",
+        "originalPath": "/features/bunching-and-carrier-delay-analysis"
+      }
+    ]
+  }
+]

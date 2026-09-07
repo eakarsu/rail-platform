@@ -1,0 +1,9 @@
+{
+  "app": "rail-platform",
+  "features": 67,
+  "sourceApps": 4,
+  "calculatorEngines": 0,
+  "registryHash": "69861c80acda73dd848053d3e685251fba5f58d48081dbdd0ee5cd6f3ffa5377",
+  "builtAt": "2026-09-07T22:05:51.393Z",
+  "status": "built"
+}

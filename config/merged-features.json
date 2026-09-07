@@ -1,0 +1,3612 @@
+[
+  {
+    "id": "clients",
+    "title": "Clients & customers",
+    "group": "Workspace",
+    "description": "Organize clients & customers and track progress.",
+    "fields": [
+      {
+        "name": "full_name",
+        "label": "Full name",
+        "type": "text"
+      },
+      {
+        "name": "email",
+        "label": "Email",
+        "type": "text"
+      },
+      {
+        "name": "phone",
+        "label": "Phone",
+        "type": "text"
+      },
+      {
+        "name": "organization",
+        "label": "Organization",
+        "type": "text"
+      },
+      {
+        "name": "address",
+        "label": "Address",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/clients",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "matters",
+    "title": "Work items & projects",
+    "group": "Workspace",
+    "description": "Organize work items & projects and track progress.",
+    "fields": [
+      {
+        "name": "reference",
+        "label": "Reference",
+        "type": "text"
+      },
+      {
+        "name": "jurisdiction",
+        "label": "Jurisdiction",
+        "type": "text"
+      },
+      {
+        "name": "due_date",
+        "label": "Due date",
+        "type": "date"
+      },
+      {
+        "name": "owner",
+        "label": "Owner",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/matters",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "contacts",
+    "title": "Contacts & parties",
+    "group": "Workspace",
+    "description": "Organize contacts & parties and track progress.",
+    "fields": [
+      {
+        "name": "full_name",
+        "label": "Full name",
+        "type": "text"
+      },
+      {
+        "name": "email",
+        "label": "Email",
+        "type": "text"
+      },
+      {
+        "name": "phone",
+        "label": "Phone",
+        "type": "text"
+      },
+      {
+        "name": "organization",
+        "label": "Organization",
+        "type": "text"
+      },
+      {
+        "name": "relationship",
+        "label": "Relationship",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/contacts",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "tasks",
+    "title": "Tasks",
+    "group": "Workspace",
+    "description": "Organize tasks and track progress.",
+    "fields": [
+      {
+        "name": "assignee",
+        "label": "Assignee",
+        "type": "text"
+      },
+      {
+        "name": "due_date",
+        "label": "Due date",
+        "type": "date"
+      },
+      {
+        "name": "priority",
+        "label": "Priority",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/tasks",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "calendar",
+    "title": "Calendar",
+    "group": "Workspace",
+    "description": "Organize calendar and track progress.",
+    "fields": [
+      {
+        "name": "event_date",
+        "label": "Event date",
+        "type": "date"
+      },
+      {
+        "name": "location",
+        "label": "Location",
+        "type": "text"
+      },
+      {
+        "name": "attendees",
+        "label": "Attendees",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/calendar",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "deadlines",
+    "title": "Deadlines & reminders",
+    "group": "Workspace",
+    "description": "Organize deadlines & reminders and track progress.",
+    "fields": [
+      {
+        "name": "due_date",
+        "label": "Due date",
+        "type": "date"
+      },
+      {
+        "name": "owner",
+        "label": "Owner",
+        "type": "text"
+      },
+      {
+        "name": "requirements",
+        "label": "Requirements",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/deadlines",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "notes",
+    "title": "Notes",
+    "group": "Workspace",
+    "description": "Organize notes and track progress.",
+    "fields": [
+      {
+        "name": "content",
+        "label": "Content",
+        "type": "textarea"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/notes",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "documents",
+    "title": "Documents",
+    "group": "Workspace",
+    "description": "Organize documents and track progress.",
+    "fields": [
+      {
+        "name": "document_type",
+        "label": "Document type",
+        "type": "text"
+      },
+      {
+        "name": "content",
+        "label": "Content",
+        "type": "textarea"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/documents",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "templates",
+    "title": "Templates",
+    "group": "Workspace",
+    "description": "Organize templates and track progress.",
+    "fields": [
+      {
+        "name": "document_type",
+        "label": "Document type",
+        "type": "text"
+      },
+      {
+        "name": "content",
+        "label": "Content",
+        "type": "textarea"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/templates",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "billing",
+    "title": "Invoices & billing",
+    "group": "Workspace",
+    "description": "Organize invoices & billing and track progress.",
+    "fields": [
+      {
+        "name": "invoice_number",
+        "label": "Invoice number",
+        "type": "text"
+      },
+      {
+        "name": "amount",
+        "label": "Amount",
+        "type": "number"
+      },
+      {
+        "name": "due_date",
+        "label": "Due date",
+        "type": "date"
+      },
+      {
+        "name": "payment_status",
+        "label": "Payment status",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/billing",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "time",
+    "title": "Time tracking",
+    "group": "Workspace",
+    "description": "Organize time tracking and track progress.",
+    "fields": [
+      {
+        "name": "work_date",
+        "label": "Work date",
+        "type": "date"
+      },
+      {
+        "name": "hours",
+        "label": "Hours",
+        "type": "number"
+      },
+      {
+        "name": "rate",
+        "label": "Rate",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/time",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "messages",
+    "title": "Messages & communications",
+    "group": "Workspace",
+    "description": "Organize messages & communications and track progress.",
+    "fields": [
+      {
+        "name": "recipient",
+        "label": "Recipient",
+        "type": "text"
+      },
+      {
+        "name": "subject",
+        "label": "Subject",
+        "type": "text"
+      },
+      {
+        "name": "content",
+        "label": "Content",
+        "type": "textarea"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/messages",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "reports",
+    "title": "Reports & analytics",
+    "group": "Workspace",
+    "description": "Organize reports & analytics and track progress.",
+    "fields": [],
+    "ai": false,
+    "mode": "report",
+    "sources": [
+      {
+        "module": "ai-rail-demurrage-accessorial-recovery",
+        "path": "analytics",
+        "source": "/Volumes/external/projects/ai-rail-demurrage-accessorial-recovery/frontend/src/App.jsx",
+        "kind": "definition",
+        "label": "Outcome Analytics"
+      },
+      {
+        "module": "ai-railcar-leasing-mileage-repair-settlement",
+        "path": "analytics",
+        "source": "/Volumes/external/projects/ai-railcar-leasing-mileage-repair-settlement/frontend/src/App.jsx",
+        "kind": "definition",
+        "label": "Outcome Analytics"
+      },
+      {
+        "module": "rail-maintenance-safety-operations-suite",
+        "path": "reports",
+        "source": "/Volumes/external/projects/rail-maintenance-safety-operations-suite/public/app.js",
+        "kind": "definition",
+        "label": "Reports"
+      }
+    ],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/reports",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "audit",
+    "title": "Activity & audit trail",
+    "group": "Workspace",
+    "description": "Organize activity & audit trail and track progress.",
+    "fields": [],
+    "ai": false,
+    "mode": "audit",
+    "sources": [
+      {
+        "module": "ai-rail-demurrage-accessorial-recovery",
+        "path": "audit",
+        "source": "/Volumes/external/projects/ai-rail-demurrage-accessorial-recovery/frontend/src/App.jsx",
+        "kind": "definition",
+        "label": "Decision Audit Trail"
+      },
+      {
+        "module": "ai-railcar-leasing-mileage-repair-settlement",
+        "path": "audit",
+        "source": "/Volumes/external/projects/ai-railcar-leasing-mileage-repair-settlement/frontend/src/App.jsx",
+        "kind": "definition",
+        "label": "Decision Audit Trail"
+      }
+    ],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/audit",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "connections",
+    "title": "Provider connections",
+    "group": "Workspace",
+    "description": "Prepare provider connections requests and track review. Provider execution is not connected.",
+    "fields": [
+      {
+        "name": "provider_name",
+        "label": "Provider name",
+        "type": "text"
+      },
+      {
+        "name": "endpoint_url",
+        "label": "Endpoint url",
+        "type": "text"
+      },
+      {
+        "name": "purpose",
+        "label": "Purpose",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "integration",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/connections",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "crossing-program",
+    "title": "Crossing Program",
+    "group": "Rail crossing inventory and coordination",
+    "description": "Organize crossing program and prepare the next review.",
+    "fields": [
+      {
+        "name": "name",
+        "label": "Name",
+        "type": "text"
+      },
+      {
+        "name": "authority",
+        "label": "Authority",
+        "type": "text"
+      },
+      {
+        "name": "region",
+        "label": "Region",
+        "type": "text"
+      },
+      {
+        "name": "coordinator",
+        "label": "Coordinator",
+        "type": "text"
+      },
+      {
+        "name": "reportingYear",
+        "label": "Reporting year",
+        "type": "number"
+      },
+      {
+        "name": "reviewAt",
+        "label": "Review at",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-rail-crossing-inventory-and-coordination",
+        "path": "CrossingProgram",
+        "source": "/Volumes/external/projects/ai-rail-crossing-inventory-and-coordination/src/config/app.ts",
+        "kind": "definition",
+        "label": "Crossing Program"
+      }
+    ],
+    "owner": "ai-rail-crossing-inventory-and-coordination",
+    "alternatives": [],
+    "path": "/features/crossing-program",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "rail-crossing",
+    "title": "Rail Crossing",
+    "group": "Rail crossing inventory and coordination",
+    "description": "Organize rail crossing and prepare the next review.",
+    "fields": [
+      {
+        "name": "name",
+        "label": "Name",
+        "type": "text"
+      },
+      {
+        "name": "crossingNumber",
+        "label": "Crossing number",
+        "type": "text"
+      },
+      {
+        "name": "road",
+        "label": "Road",
+        "type": "text"
+      },
+      {
+        "name": "railroad",
+        "label": "Railroad",
+        "type": "text"
+      },
+      {
+        "name": "latitude",
+        "label": "Latitude",
+        "type": "number"
+      },
+      {
+        "name": "longitude",
+        "label": "Longitude",
+        "type": "number"
+      },
+      {
+        "name": "crossingProgramId",
+        "label": "Crossing program id",
+        "type": "text"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-rail-crossing-inventory-and-coordination",
+        "path": "RailCrossing",
+        "source": "/Volumes/external/projects/ai-rail-crossing-inventory-and-coordination/src/config/app.ts",
+        "kind": "definition",
+        "label": "Rail Crossing"
+      }
+    ],
+    "owner": "ai-rail-crossing-inventory-and-coordination",
+    "alternatives": [],
+    "path": "/features/rail-crossing",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "crossing-owner",
+    "title": "Crossing Owner",
+    "group": "Rail crossing inventory and coordination",
+    "description": "Organize crossing owner and prepare the next review.",
+    "fields": [
+      {
+        "name": "railCrossingId",
+        "label": "Rail crossing id",
+        "type": "text"
+      },
+      {
+        "name": "party",
+        "label": "Party",
+        "type": "text"
+      },
+      {
+        "name": "responsibility",
+        "label": "Responsibility",
+        "type": "text"
+      },
+      {
+        "name": "agreementReference",
+        "label": "Agreement reference",
+        "type": "text"
+      },
+      {
+        "name": "effectiveAt",
+        "label": "Effective at",
+        "type": "date"
+      },
+      {
+        "name": "crossingProgramId",
+        "label": "Crossing program id",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-rail-crossing-inventory-and-coordination",
+        "path": "CrossingOwner",
+        "source": "/Volumes/external/projects/ai-rail-crossing-inventory-and-coordination/src/config/app.ts",
+        "kind": "definition",
+        "label": "Crossing Owner"
+      }
+    ],
+    "owner": "ai-rail-crossing-inventory-and-coordination",
+    "alternatives": [],
+    "path": "/features/crossing-owner",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "warning-device",
+    "title": "Warning Device",
+    "group": "Rail crossing inventory and coordination",
+    "description": "Organize warning device and prepare the next review.",
+    "fields": [
+      {
+        "name": "railCrossingId",
+        "label": "Rail crossing id",
+        "type": "text"
+      },
+      {
+        "name": "deviceType",
+        "label": "Device type",
+        "type": "text"
+      },
+      {
+        "name": "serialNumber",
+        "label": "Serial number",
+        "type": "text"
+      },
+      {
+        "name": "installedAt",
+        "label": "Installed at",
+        "type": "date"
+      },
+      {
+        "name": "testedAt",
+        "label": "Tested at",
+        "type": "date"
+      },
+      {
+        "name": "crossingProgramId",
+        "label": "Crossing program id",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-rail-crossing-inventory-and-coordination",
+        "path": "WarningDevice",
+        "source": "/Volumes/external/projects/ai-rail-crossing-inventory-and-coordination/src/config/app.ts",
+        "kind": "definition",
+        "label": "Warning Device"
+      }
+    ],
+    "owner": "ai-rail-crossing-inventory-and-coordination",
+    "alternatives": [],
+    "path": "/features/warning-device",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "crossing-inspection",
+    "title": "Crossing Inspection",
+    "group": "Rail crossing inventory and coordination",
+    "description": "Organize crossing inspection and prepare the next review.",
+    "fields": [
+      {
+        "name": "railCrossingId",
+        "label": "Rail crossing id",
+        "type": "text"
+      },
+      {
+        "name": "inspectedAt",
+        "label": "Inspected at",
+        "type": "date"
+      },
+      {
+        "name": "inspector",
+        "label": "Inspector",
+        "type": "text"
+      },
+      {
+        "name": "observations",
+        "label": "Observations",
+        "type": "text"
+      },
+      {
+        "name": "nextDueAt",
+        "label": "Next due at",
+        "type": "date"
+      },
+      {
+        "name": "crossingProgramId",
+        "label": "Crossing program id",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-rail-crossing-inventory-and-coordination",
+        "path": "CrossingInspection",
+        "source": "/Volumes/external/projects/ai-rail-crossing-inventory-and-coordination/src/config/app.ts",
+        "kind": "definition",
+        "label": "Crossing Inspection"
+      }
+    ],
+    "owner": "ai-rail-crossing-inventory-and-coordination",
+    "alternatives": [],
+    "path": "/features/crossing-inspection",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "traffic-observation",
+    "title": "Traffic Observation",
+    "group": "Rail crossing inventory and coordination",
+    "description": "Organize traffic observation and prepare the next review.",
+    "fields": [
+      {
+        "name": "railCrossingId",
+        "label": "Rail crossing id",
+        "type": "text"
+      },
+      {
+        "name": "observedAt",
+        "label": "Observed at",
+        "type": "date"
+      },
+      {
+        "name": "roadVehicles",
+        "label": "Road vehicles",
+        "type": "number"
+      },
+      {
+        "name": "trains",
+        "label": "Trains",
+        "type": "number"
+      },
+      {
+        "name": "method",
+        "label": "Method",
+        "type": "text"
+      },
+      {
+        "name": "crossingProgramId",
+        "label": "Crossing program id",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-rail-crossing-inventory-and-coordination",
+        "path": "TrafficObservation",
+        "source": "/Volumes/external/projects/ai-rail-crossing-inventory-and-coordination/src/config/app.ts",
+        "kind": "definition",
+        "label": "Traffic Observation"
+      }
+    ],
+    "owner": "ai-rail-crossing-inventory-and-coordination",
+    "alternatives": [],
+    "path": "/features/traffic-observation",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "crossing-project",
+    "title": "Crossing Project",
+    "group": "Rail crossing inventory and coordination",
+    "description": "Organize crossing project and prepare the next review.",
+    "fields": [
+      {
+        "name": "railCrossingId",
+        "label": "Rail crossing id",
+        "type": "text"
+      },
+      {
+        "name": "scope",
+        "label": "Scope",
+        "type": "text"
+      },
+      {
+        "name": "roadAuthority",
+        "label": "Road authority",
+        "type": "text"
+      },
+      {
+        "name": "railAuthority",
+        "label": "Rail authority",
+        "type": "text"
+      },
+      {
+        "name": "budgetCents",
+        "label": "Budget cents",
+        "type": "number"
+      },
+      {
+        "name": "dueAt",
+        "label": "Due at",
+        "type": "date"
+      },
+      {
+        "name": "crossingProgramId",
+        "label": "Crossing program id",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-rail-crossing-inventory-and-coordination",
+        "path": "CrossingProject",
+        "source": "/Volumes/external/projects/ai-rail-crossing-inventory-and-coordination/src/config/app.ts",
+        "kind": "definition",
+        "label": "Crossing Project"
+      }
+    ],
+    "owner": "ai-rail-crossing-inventory-and-coordination",
+    "alternatives": [],
+    "path": "/features/crossing-project",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "inventory-change",
+    "title": "Inventory Change",
+    "group": "Rail crossing inventory and coordination",
+    "description": "Organize inventory change and prepare the next review.",
+    "fields": [
+      {
+        "name": "railCrossingId",
+        "label": "Rail crossing id",
+        "type": "text"
+      },
+      {
+        "name": "fieldName",
+        "label": "Field name",
+        "type": "text"
+      },
+      {
+        "name": "previousValue",
+        "label": "Previous value",
+        "type": "text"
+      },
+      {
+        "name": "proposedValue",
+        "label": "Proposed value",
+        "type": "text"
+      },
+      {
+        "name": "sourceReference",
+        "label": "Source reference",
+        "type": "text"
+      },
+      {
+        "name": "crossingProgramId",
+        "label": "Crossing program id",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-rail-crossing-inventory-and-coordination",
+        "path": "InventoryChange",
+        "source": "/Volumes/external/projects/ai-rail-crossing-inventory-and-coordination/src/config/app.ts",
+        "kind": "definition",
+        "label": "Inventory Change"
+      }
+    ],
+    "owner": "ai-rail-crossing-inventory-and-coordination",
+    "alternatives": [],
+    "path": "/features/inventory-change",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "crossing-submission",
+    "title": "Crossing Submission",
+    "group": "Rail crossing inventory and coordination",
+    "description": "Organize crossing submission and prepare the next review.",
+    "fields": [
+      {
+        "name": "railCrossingId",
+        "label": "Rail crossing id",
+        "type": "text"
+      },
+      {
+        "name": "submittedAt",
+        "label": "Submitted at",
+        "type": "date"
+      },
+      {
+        "name": "submitter",
+        "label": "Submitter",
+        "type": "text"
+      },
+      {
+        "name": "submissionReference",
+        "label": "Submission reference",
+        "type": "text"
+      },
+      {
+        "name": "receipt",
+        "label": "Receipt",
+        "type": "text"
+      },
+      {
+        "name": "crossingProgramId",
+        "label": "Crossing program id",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-rail-crossing-inventory-and-coordination",
+        "path": "CrossingSubmission",
+        "source": "/Volumes/external/projects/ai-rail-crossing-inventory-and-coordination/src/config/app.ts",
+        "kind": "definition",
+        "label": "Crossing Submission"
+      }
+    ],
+    "owner": "ai-rail-crossing-inventory-and-coordination",
+    "alternatives": [],
+    "path": "/features/crossing-submission",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "operational-task",
+    "title": "Operational Task",
+    "group": "Rail crossing inventory and coordination",
+    "description": "Organize operational task and prepare the next review.",
+    "fields": [
+      {
+        "name": "owner",
+        "label": "Owner",
+        "type": "text"
+      },
+      {
+        "name": "priority",
+        "label": "Priority",
+        "type": "text"
+      },
+      {
+        "name": "startAt",
+        "label": "Start at",
+        "type": "date"
+      },
+      {
+        "name": "dueAt",
+        "label": "Due at",
+        "type": "date"
+      },
+      {
+        "name": "done",
+        "label": "Done",
+        "type": "select",
+        "options": [
+          "true",
+          "false"
+        ]
+      },
+      {
+        "name": "crossingProgramId",
+        "label": "Crossing program id",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-rail-crossing-inventory-and-coordination",
+        "path": "OperationalTask",
+        "source": "/Volumes/external/projects/ai-rail-crossing-inventory-and-coordination/src/config/app.ts",
+        "kind": "definition",
+        "label": "Operational Task"
+      }
+    ],
+    "owner": "ai-rail-crossing-inventory-and-coordination",
+    "alternatives": [],
+    "path": "/features/operational-task",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "rule-version",
+    "title": "Rule Version",
+    "group": "Rail crossing inventory and coordination",
+    "description": "Organize rule version and prepare the next review.",
+    "fields": [
+      {
+        "name": "jurisdiction",
+        "label": "Jurisdiction",
+        "type": "text"
+      },
+      {
+        "name": "version",
+        "label": "Version",
+        "type": "text"
+      },
+      {
+        "name": "effectiveAt",
+        "label": "Effective at",
+        "type": "date"
+      },
+      {
+        "name": "expiresAt",
+        "label": "Expires at",
+        "type": "date"
+      },
+      {
+        "name": "sourceUrl",
+        "label": "Source url",
+        "type": "text"
+      },
+      {
+        "name": "requirementText",
+        "label": "Requirement text",
+        "type": "textarea"
+      },
+      {
+        "name": "crossingProgramId",
+        "label": "Crossing program id",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-rail-crossing-inventory-and-coordination",
+        "path": "RuleVersion",
+        "source": "/Volumes/external/projects/ai-rail-crossing-inventory-and-coordination/src/config/app.ts",
+        "kind": "definition",
+        "label": "Rule Version"
+      }
+    ],
+    "owner": "ai-rail-crossing-inventory-and-coordination",
+    "alternatives": [],
+    "path": "/features/rule-version",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "document-requirement",
+    "title": "Document Requirement",
+    "group": "Rail crossing inventory and coordination",
+    "description": "Organize document requirement and prepare the next review.",
+    "fields": [
+      {
+        "name": "category",
+        "label": "Category",
+        "type": "text"
+      },
+      {
+        "name": "requiredBy",
+        "label": "Required by",
+        "type": "date"
+      },
+      {
+        "name": "sourceReference",
+        "label": "Source reference",
+        "type": "text"
+      },
+      {
+        "name": "evidenceReference",
+        "label": "Evidence reference",
+        "type": "textarea"
+      },
+      {
+        "name": "reviewNotes",
+        "label": "Review notes",
+        "type": "text"
+      },
+      {
+        "name": "crossingProgramId",
+        "label": "Crossing program id",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-rail-crossing-inventory-and-coordination",
+        "path": "DocumentRequirement",
+        "source": "/Volumes/external/projects/ai-rail-crossing-inventory-and-coordination/src/config/app.ts",
+        "kind": "definition",
+        "label": "Document Requirement"
+      }
+    ],
+    "owner": "ai-rail-crossing-inventory-and-coordination",
+    "alternatives": [],
+    "path": "/features/document-requirement",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "inspection-change-extraction",
+    "title": "Inspection change extraction",
+    "group": "Rail crossing inventory and coordination",
+    "description": "Inspection change extraction using selected crossing program records and supplied evidence.",
+    "fields": [
+      {
+        "name": "objective",
+        "label": "Objective",
+        "type": "text"
+      },
+      {
+        "name": "sourceContext",
+        "label": "Source context",
+        "type": "textarea"
+      },
+      {
+        "name": "applicableRules",
+        "label": "Applicable rules",
+        "type": "text"
+      },
+      {
+        "name": "knownDiscrepancies",
+        "label": "Known discrepancies",
+        "type": "text"
+      },
+      {
+        "name": "constraints",
+        "label": "Constraints",
+        "type": "text"
+      },
+      {
+        "name": "requestedOutput",
+        "label": "Requested output",
+        "type": "text"
+      },
+      {
+        "name": "optionalReviewerNotes",
+        "label": "Optional reviewer notes",
+        "type": "text"
+      },
+      {
+        "name": "optionalAdditionalEvidence",
+        "label": "Optional additional evidence",
+        "type": "textarea"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-rail-crossing-inventory-and-coordination",
+        "path": "inspection-change-extraction",
+        "source": "/Volumes/external/projects/ai-rail-crossing-inventory-and-coordination/src/config/app.ts",
+        "kind": "definition",
+        "label": "Inspection change extraction"
+      }
+    ],
+    "owner": "ai-rail-crossing-inventory-and-coordination",
+    "alternatives": [],
+    "path": "/features/inspection-change-extraction",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "owner-responsibility-review",
+    "title": "Owner responsibility review",
+    "group": "Rail crossing inventory and coordination",
+    "description": "Owner responsibility review using selected crossing program records and supplied evidence.",
+    "fields": [
+      {
+        "name": "objective",
+        "label": "Objective",
+        "type": "text"
+      },
+      {
+        "name": "sourceContext",
+        "label": "Source context",
+        "type": "textarea"
+      },
+      {
+        "name": "applicableRules",
+        "label": "Applicable rules",
+        "type": "text"
+      },
+      {
+        "name": "knownDiscrepancies",
+        "label": "Known discrepancies",
+        "type": "text"
+      },
+      {
+        "name": "constraints",
+        "label": "Constraints",
+        "type": "text"
+      },
+      {
+        "name": "requestedOutput",
+        "label": "Requested output",
+        "type": "text"
+      },
+      {
+        "name": "optionalReviewerNotes",
+        "label": "Optional reviewer notes",
+        "type": "text"
+      },
+      {
+        "name": "optionalAdditionalEvidence",
+        "label": "Optional additional evidence",
+        "type": "textarea"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-rail-crossing-inventory-and-coordination",
+        "path": "owner-responsibility-review",
+        "source": "/Volumes/external/projects/ai-rail-crossing-inventory-and-coordination/src/config/app.ts",
+        "kind": "definition",
+        "label": "Owner responsibility review"
+      }
+    ],
+    "owner": "ai-rail-crossing-inventory-and-coordination",
+    "alternatives": [],
+    "path": "/features/owner-responsibility-review",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "device-record-reconciliation",
+    "title": "Device record reconciliation",
+    "group": "Rail crossing inventory and coordination",
+    "description": "Device record reconciliation using selected crossing program records and supplied evidence.",
+    "fields": [
+      {
+        "name": "objective",
+        "label": "Objective",
+        "type": "text"
+      },
+      {
+        "name": "sourceContext",
+        "label": "Source context",
+        "type": "textarea"
+      },
+      {
+        "name": "applicableRules",
+        "label": "Applicable rules",
+        "type": "text"
+      },
+      {
+        "name": "knownDiscrepancies",
+        "label": "Known discrepancies",
+        "type": "text"
+      },
+      {
+        "name": "constraints",
+        "label": "Constraints",
+        "type": "text"
+      },
+      {
+        "name": "requestedOutput",
+        "label": "Requested output",
+        "type": "text"
+      },
+      {
+        "name": "optionalReviewerNotes",
+        "label": "Optional reviewer notes",
+        "type": "text"
+      },
+      {
+        "name": "optionalAdditionalEvidence",
+        "label": "Optional additional evidence",
+        "type": "textarea"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-rail-crossing-inventory-and-coordination",
+        "path": "device-record-reconciliation",
+        "source": "/Volumes/external/projects/ai-rail-crossing-inventory-and-coordination/src/config/app.ts",
+        "kind": "definition",
+        "label": "Device record reconciliation"
+      }
+    ],
+    "owner": "ai-rail-crossing-inventory-and-coordination",
+    "alternatives": [],
+    "path": "/features/device-record-reconciliation",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "project-coordination-brief",
+    "title": "Project coordination brief",
+    "group": "Rail crossing inventory and coordination",
+    "description": "Project coordination brief using selected crossing program records and supplied evidence.",
+    "fields": [
+      {
+        "name": "objective",
+        "label": "Objective",
+        "type": "text"
+      },
+      {
+        "name": "sourceContext",
+        "label": "Source context",
+        "type": "textarea"
+      },
+      {
+        "name": "applicableRules",
+        "label": "Applicable rules",
+        "type": "text"
+      },
+      {
+        "name": "knownDiscrepancies",
+        "label": "Known discrepancies",
+        "type": "text"
+      },
+      {
+        "name": "constraints",
+        "label": "Constraints",
+        "type": "text"
+      },
+      {
+        "name": "requestedOutput",
+        "label": "Requested output",
+        "type": "text"
+      },
+      {
+        "name": "optionalReviewerNotes",
+        "label": "Optional reviewer notes",
+        "type": "text"
+      },
+      {
+        "name": "optionalAdditionalEvidence",
+        "label": "Optional additional evidence",
+        "type": "textarea"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-rail-crossing-inventory-and-coordination",
+        "path": "project-coordination-brief",
+        "source": "/Volumes/external/projects/ai-rail-crossing-inventory-and-coordination/src/config/app.ts",
+        "kind": "definition",
+        "label": "Project coordination brief"
+      }
+    ],
+    "owner": "ai-rail-crossing-inventory-and-coordination",
+    "alternatives": [],
+    "path": "/features/project-coordination-brief",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "inventory-discrepancy-packet",
+    "title": "Inventory discrepancy packet",
+    "group": "Rail crossing inventory and coordination",
+    "description": "Inventory discrepancy packet using selected crossing program records and supplied evidence.",
+    "fields": [
+      {
+        "name": "objective",
+        "label": "Objective",
+        "type": "text"
+      },
+      {
+        "name": "sourceContext",
+        "label": "Source context",
+        "type": "textarea"
+      },
+      {
+        "name": "applicableRules",
+        "label": "Applicable rules",
+        "type": "text"
+      },
+      {
+        "name": "knownDiscrepancies",
+        "label": "Known discrepancies",
+        "type": "text"
+      },
+      {
+        "name": "constraints",
+        "label": "Constraints",
+        "type": "text"
+      },
+      {
+        "name": "requestedOutput",
+        "label": "Requested output",
+        "type": "text"
+      },
+      {
+        "name": "optionalReviewerNotes",
+        "label": "Optional reviewer notes",
+        "type": "text"
+      },
+      {
+        "name": "optionalAdditionalEvidence",
+        "label": "Optional additional evidence",
+        "type": "textarea"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-rail-crossing-inventory-and-coordination",
+        "path": "inventory-discrepancy-packet",
+        "source": "/Volumes/external/projects/ai-rail-crossing-inventory-and-coordination/src/config/app.ts",
+        "kind": "definition",
+        "label": "Inventory discrepancy packet"
+      }
+    ],
+    "owner": "ai-rail-crossing-inventory-and-coordination",
+    "alternatives": [],
+    "path": "/features/inventory-discrepancy-packet",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "agency-submission-narrative",
+    "title": "Agency submission narrative",
+    "group": "Rail crossing inventory and coordination",
+    "description": "Agency submission narrative using selected crossing program records and supplied evidence.",
+    "fields": [
+      {
+        "name": "objective",
+        "label": "Objective",
+        "type": "text"
+      },
+      {
+        "name": "sourceContext",
+        "label": "Source context",
+        "type": "textarea"
+      },
+      {
+        "name": "applicableRules",
+        "label": "Applicable rules",
+        "type": "text"
+      },
+      {
+        "name": "knownDiscrepancies",
+        "label": "Known discrepancies",
+        "type": "text"
+      },
+      {
+        "name": "constraints",
+        "label": "Constraints",
+        "type": "text"
+      },
+      {
+        "name": "requestedOutput",
+        "label": "Requested output",
+        "type": "text"
+      },
+      {
+        "name": "optionalReviewerNotes",
+        "label": "Optional reviewer notes",
+        "type": "text"
+      },
+      {
+        "name": "optionalAdditionalEvidence",
+        "label": "Optional additional evidence",
+        "type": "textarea"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-rail-crossing-inventory-and-coordination",
+        "path": "agency-submission-narrative",
+        "source": "/Volumes/external/projects/ai-rail-crossing-inventory-and-coordination/src/config/app.ts",
+        "kind": "definition",
+        "label": "Agency submission narrative"
+      }
+    ],
+    "owner": "ai-rail-crossing-inventory-and-coordination",
+    "alternatives": [],
+    "path": "/features/agency-submission-narrative",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "evidence-completeness-review",
+    "title": "Evidence completeness review",
+    "group": "Rail crossing inventory and coordination",
+    "description": "Evidence completeness review using selected crossing program records and supplied evidence.",
+    "fields": [
+      {
+        "name": "objective",
+        "label": "Objective",
+        "type": "text"
+      },
+      {
+        "name": "sourceContext",
+        "label": "Source context",
+        "type": "textarea"
+      },
+      {
+        "name": "applicableRules",
+        "label": "Applicable rules",
+        "type": "text"
+      },
+      {
+        "name": "knownDiscrepancies",
+        "label": "Known discrepancies",
+        "type": "text"
+      },
+      {
+        "name": "constraints",
+        "label": "Constraints",
+        "type": "text"
+      },
+      {
+        "name": "requestedOutput",
+        "label": "Requested output",
+        "type": "text"
+      },
+      {
+        "name": "optionalReviewerNotes",
+        "label": "Optional reviewer notes",
+        "type": "text"
+      },
+      {
+        "name": "optionalAdditionalEvidence",
+        "label": "Optional additional evidence",
+        "type": "textarea"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-rail-crossing-inventory-and-coordination",
+        "path": "evidence-completeness-review",
+        "source": "/Volumes/external/projects/ai-rail-crossing-inventory-and-coordination/src/config/app.ts",
+        "kind": "definition",
+        "label": "Evidence completeness review"
+      }
+    ],
+    "owner": "ai-rail-crossing-inventory-and-coordination",
+    "alternatives": [],
+    "path": "/features/evidence-completeness-review",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "operations-handoff-draft",
+    "title": "Operations handoff draft",
+    "group": "Rail crossing inventory and coordination",
+    "description": "Operations handoff draft using selected crossing program records and supplied evidence.",
+    "fields": [
+      {
+        "name": "objective",
+        "label": "Objective",
+        "type": "text"
+      },
+      {
+        "name": "sourceContext",
+        "label": "Source context",
+        "type": "textarea"
+      },
+      {
+        "name": "applicableRules",
+        "label": "Applicable rules",
+        "type": "text"
+      },
+      {
+        "name": "knownDiscrepancies",
+        "label": "Known discrepancies",
+        "type": "text"
+      },
+      {
+        "name": "constraints",
+        "label": "Constraints",
+        "type": "text"
+      },
+      {
+        "name": "requestedOutput",
+        "label": "Requested output",
+        "type": "text"
+      },
+      {
+        "name": "optionalReviewerNotes",
+        "label": "Optional reviewer notes",
+        "type": "text"
+      },
+      {
+        "name": "optionalAdditionalEvidence",
+        "label": "Optional additional evidence",
+        "type": "textarea"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-rail-crossing-inventory-and-coordination",
+        "path": "operations-handoff-draft",
+        "source": "/Volumes/external/projects/ai-rail-crossing-inventory-and-coordination/src/config/app.ts",
+        "kind": "definition",
+        "label": "Operations handoff draft"
+      }
+    ],
+    "owner": "ai-rail-crossing-inventory-and-coordination",
+    "alternatives": [],
+    "path": "/features/operations-handoff-draft",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "rail-tariff-and-contract-library",
+    "title": "Rail tariff and contract library",
+    "group": "Rail demurrage accessorial recovery",
+    "description": "Reconcile rail tariff and contract library using rail contracts, tariffs, railcar registries, waybills, interchange events, actual and constructive placement, plant operating records, closures, invoices, and credits.",
+    "fields": [
+      {
+        "name": "railroadCar",
+        "label": "Railroad / Railcar",
+        "type": "text"
+      },
+      {
+        "name": "caseReference",
+        "label": "Rail tariff and contract library Reference",
+        "type": "text"
+      },
+      {
+        "name": "billedAmount",
+        "label": "Railroad Billed Amount",
+        "type": "number"
+      },
+      {
+        "name": "supportedAmount",
+        "label": "Tariff-Supported Amount",
+        "type": "number"
+      },
+      {
+        "name": "evidenceState",
+        "label": "Evidence State",
+        "type": "select",
+        "options": [
+          "Complete",
+          "Incomplete",
+          "Exception"
+        ]
+      },
+      {
+        "name": "reviewDeadline",
+        "label": "Review Deadline",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-rail-demurrage-accessorial-recovery",
+        "path": "rail-tariff-and-contract-library",
+        "source": "/Volumes/external/projects/ai-rail-demurrage-accessorial-recovery/app.config.mjs",
+        "kind": "definition",
+        "label": "Rail tariff and contract library"
+      }
+    ],
+    "owner": "ai-rail-demurrage-accessorial-recovery",
+    "alternatives": [],
+    "path": "/features/rail-tariff-and-contract-library",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "railcar-and-equipment-registry",
+    "title": "Railcar and equipment registry",
+    "group": "Rail demurrage accessorial recovery",
+    "description": "Reconcile railcar and equipment registry using rail contracts, tariffs, railcar registries, waybills, interchange events, actual and constructive placement, plant operating records, closures, invoices, and credits.",
+    "fields": [
+      {
+        "name": "railroadCar",
+        "label": "Railroad / Railcar",
+        "type": "text"
+      },
+      {
+        "name": "caseReference",
+        "label": "Railcar and equipment registry Reference",
+        "type": "text"
+      },
+      {
+        "name": "billedAmount",
+        "label": "Railroad Billed Amount",
+        "type": "number"
+      },
+      {
+        "name": "supportedAmount",
+        "label": "Tariff-Supported Amount",
+        "type": "number"
+      },
+      {
+        "name": "evidenceState",
+        "label": "Evidence State",
+        "type": "select",
+        "options": [
+          "Complete",
+          "Incomplete",
+          "Exception"
+        ]
+      },
+      {
+        "name": "reviewDeadline",
+        "label": "Review Deadline",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-rail-demurrage-accessorial-recovery",
+        "path": "railcar-and-equipment-registry",
+        "source": "/Volumes/external/projects/ai-rail-demurrage-accessorial-recovery/app.config.mjs",
+        "kind": "definition",
+        "label": "Railcar and equipment registry"
+      }
+    ],
+    "owner": "ai-rail-demurrage-accessorial-recovery",
+    "alternatives": [],
+    "path": "/features/railcar-and-equipment-registry",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "waybill-ingestion",
+    "title": "Waybill ingestion",
+    "group": "Rail demurrage accessorial recovery",
+    "description": "Reconcile waybill ingestion using rail contracts, tariffs, railcar registries, waybills, interchange events, actual and constructive placement, plant operating records, closures, invoices, and credits.",
+    "fields": [
+      {
+        "name": "railroadCar",
+        "label": "Railroad / Railcar",
+        "type": "text"
+      },
+      {
+        "name": "caseReference",
+        "label": "Waybill ingestion Reference",
+        "type": "text"
+      },
+      {
+        "name": "billedAmount",
+        "label": "Railroad Billed Amount",
+        "type": "number"
+      },
+      {
+        "name": "supportedAmount",
+        "label": "Tariff-Supported Amount",
+        "type": "number"
+      },
+      {
+        "name": "evidenceState",
+        "label": "Evidence State",
+        "type": "select",
+        "options": [
+          "Complete",
+          "Incomplete",
+          "Exception"
+        ]
+      },
+      {
+        "name": "reviewDeadline",
+        "label": "Review Deadline",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-rail-demurrage-accessorial-recovery",
+        "path": "waybill-ingestion",
+        "source": "/Volumes/external/projects/ai-rail-demurrage-accessorial-recovery/app.config.mjs",
+        "kind": "definition",
+        "label": "Waybill ingestion"
+      }
+    ],
+    "owner": "ai-rail-demurrage-accessorial-recovery",
+    "alternatives": [],
+    "path": "/features/waybill-ingestion",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "event-and-interchange-timeline",
+    "title": "Event and interchange timeline",
+    "group": "Rail demurrage accessorial recovery",
+    "description": "Reconcile event and interchange timeline using rail contracts, tariffs, railcar registries, waybills, interchange events, actual and constructive placement, plant operating records, closures, invoices, and credits.",
+    "fields": [
+      {
+        "name": "railroadCar",
+        "label": "Railroad / Railcar",
+        "type": "text"
+      },
+      {
+        "name": "caseReference",
+        "label": "Event and interchange timeline Reference",
+        "type": "text"
+      },
+      {
+        "name": "billedAmount",
+        "label": "Railroad Billed Amount",
+        "type": "number"
+      },
+      {
+        "name": "supportedAmount",
+        "label": "Tariff-Supported Amount",
+        "type": "number"
+      },
+      {
+        "name": "evidenceState",
+        "label": "Evidence State",
+        "type": "select",
+        "options": [
+          "Complete",
+          "Incomplete",
+          "Exception"
+        ]
+      },
+      {
+        "name": "reviewDeadline",
+        "label": "Review Deadline",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-rail-demurrage-accessorial-recovery",
+        "path": "event-and-interchange-timeline",
+        "source": "/Volumes/external/projects/ai-rail-demurrage-accessorial-recovery/app.config.mjs",
+        "kind": "definition",
+        "label": "Event and interchange timeline"
+      }
+    ],
+    "owner": "ai-rail-demurrage-accessorial-recovery",
+    "alternatives": [],
+    "path": "/features/event-and-interchange-timeline",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "actual-placement-calculation",
+    "title": "Actual placement calculation",
+    "group": "Rail demurrage accessorial recovery",
+    "description": "Reconcile actual placement calculation using rail contracts, tariffs, railcar registries, waybills, interchange events, actual and constructive placement, plant operating records, closures, invoices, and credits.",
+    "fields": [
+      {
+        "name": "railroadCar",
+        "label": "Railroad / Railcar",
+        "type": "text"
+      },
+      {
+        "name": "caseReference",
+        "label": "Actual placement calculation Reference",
+        "type": "text"
+      },
+      {
+        "name": "billedAmount",
+        "label": "Railroad Billed Amount",
+        "type": "number"
+      },
+      {
+        "name": "supportedAmount",
+        "label": "Tariff-Supported Amount",
+        "type": "number"
+      },
+      {
+        "name": "evidenceState",
+        "label": "Evidence State",
+        "type": "select",
+        "options": [
+          "Complete",
+          "Incomplete",
+          "Exception"
+        ]
+      },
+      {
+        "name": "reviewDeadline",
+        "label": "Review Deadline",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-rail-demurrage-accessorial-recovery",
+        "path": "actual-placement-calculation",
+        "source": "/Volumes/external/projects/ai-rail-demurrage-accessorial-recovery/app.config.mjs",
+        "kind": "definition",
+        "label": "Actual placement calculation"
+      }
+    ],
+    "owner": "ai-rail-demurrage-accessorial-recovery",
+    "alternatives": [],
+    "path": "/features/actual-placement-calculation",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "constructive-placement-calculation",
+    "title": "Constructive placement calculation",
+    "group": "Rail demurrage accessorial recovery",
+    "description": "Reconcile constructive placement calculation using rail contracts, tariffs, railcar registries, waybills, interchange events, actual and constructive placement, plant operating records, closures, invoices, and credits.",
+    "fields": [
+      {
+        "name": "railroadCar",
+        "label": "Railroad / Railcar",
+        "type": "text"
+      },
+      {
+        "name": "caseReference",
+        "label": "Constructive placement calculation Reference",
+        "type": "text"
+      },
+      {
+        "name": "billedAmount",
+        "label": "Railroad Billed Amount",
+        "type": "number"
+      },
+      {
+        "name": "supportedAmount",
+        "label": "Tariff-Supported Amount",
+        "type": "number"
+      },
+      {
+        "name": "evidenceState",
+        "label": "Evidence State",
+        "type": "select",
+        "options": [
+          "Complete",
+          "Incomplete",
+          "Exception"
+        ]
+      },
+      {
+        "name": "reviewDeadline",
+        "label": "Review Deadline",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-rail-demurrage-accessorial-recovery",
+        "path": "constructive-placement-calculation",
+        "source": "/Volumes/external/projects/ai-rail-demurrage-accessorial-recovery/app.config.mjs",
+        "kind": "definition",
+        "label": "Constructive placement calculation"
+      }
+    ],
+    "owner": "ai-rail-demurrage-accessorial-recovery",
+    "alternatives": [],
+    "path": "/features/constructive-placement-calculation",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "free-time-calculation",
+    "title": "Free-time calculation",
+    "group": "Rail demurrage accessorial recovery",
+    "description": "Reconcile free-time calculation using rail contracts, tariffs, railcar registries, waybills, interchange events, actual and constructive placement, plant operating records, closures, invoices, and credits.",
+    "fields": [
+      {
+        "name": "railroadCar",
+        "label": "Railroad / Railcar",
+        "type": "text"
+      },
+      {
+        "name": "caseReference",
+        "label": "Free-time calculation Reference",
+        "type": "text"
+      },
+      {
+        "name": "billedAmount",
+        "label": "Railroad Billed Amount",
+        "type": "number"
+      },
+      {
+        "name": "supportedAmount",
+        "label": "Tariff-Supported Amount",
+        "type": "number"
+      },
+      {
+        "name": "evidenceState",
+        "label": "Evidence State",
+        "type": "select",
+        "options": [
+          "Complete",
+          "Incomplete",
+          "Exception"
+        ]
+      },
+      {
+        "name": "reviewDeadline",
+        "label": "Review Deadline",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-rail-demurrage-accessorial-recovery",
+        "path": "free-time-calculation",
+        "source": "/Volumes/external/projects/ai-rail-demurrage-accessorial-recovery/app.config.mjs",
+        "kind": "definition",
+        "label": "Free-time calculation"
+      }
+    ],
+    "owner": "ai-rail-demurrage-accessorial-recovery",
+    "alternatives": [],
+    "path": "/features/free-time-calculation",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "demurrage-recalculation",
+    "title": "Demurrage recalculation",
+    "group": "Rail demurrage accessorial recovery",
+    "description": "Reconcile demurrage recalculation using rail contracts, tariffs, railcar registries, waybills, interchange events, actual and constructive placement, plant operating records, closures, invoices, and credits.",
+    "fields": [
+      {
+        "name": "railroadCar",
+        "label": "Railroad / Railcar",
+        "type": "text"
+      },
+      {
+        "name": "caseReference",
+        "label": "Demurrage recalculation Reference",
+        "type": "text"
+      },
+      {
+        "name": "billedAmount",
+        "label": "Railroad Billed Amount",
+        "type": "number"
+      },
+      {
+        "name": "supportedAmount",
+        "label": "Tariff-Supported Amount",
+        "type": "number"
+      },
+      {
+        "name": "evidenceState",
+        "label": "Evidence State",
+        "type": "select",
+        "options": [
+          "Complete",
+          "Incomplete",
+          "Exception"
+        ]
+      },
+      {
+        "name": "reviewDeadline",
+        "label": "Review Deadline",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-rail-demurrage-accessorial-recovery",
+        "path": "demurrage-recalculation",
+        "source": "/Volumes/external/projects/ai-rail-demurrage-accessorial-recovery/app.config.mjs",
+        "kind": "definition",
+        "label": "Demurrage recalculation"
+      }
+    ],
+    "owner": "ai-rail-demurrage-accessorial-recovery",
+    "alternatives": [],
+    "path": "/features/demurrage-recalculation",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "storage-and-switching-audit",
+    "title": "Storage and switching audit",
+    "group": "Rail demurrage accessorial recovery",
+    "description": "Reconcile storage and switching audit using rail contracts, tariffs, railcar registries, waybills, interchange events, actual and constructive placement, plant operating records, closures, invoices, and credits.",
+    "fields": [
+      {
+        "name": "railroadCar",
+        "label": "Railroad / Railcar",
+        "type": "text"
+      },
+      {
+        "name": "caseReference",
+        "label": "Storage and switching audit Reference",
+        "type": "text"
+      },
+      {
+        "name": "billedAmount",
+        "label": "Railroad Billed Amount",
+        "type": "number"
+      },
+      {
+        "name": "supportedAmount",
+        "label": "Tariff-Supported Amount",
+        "type": "number"
+      },
+      {
+        "name": "evidenceState",
+        "label": "Evidence State",
+        "type": "select",
+        "options": [
+          "Complete",
+          "Incomplete",
+          "Exception"
+        ]
+      },
+      {
+        "name": "reviewDeadline",
+        "label": "Review Deadline",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-rail-demurrage-accessorial-recovery",
+        "path": "storage-and-switching-audit",
+        "source": "/Volumes/external/projects/ai-rail-demurrage-accessorial-recovery/app.config.mjs",
+        "kind": "definition",
+        "label": "Storage and switching audit"
+      }
+    ],
+    "owner": "ai-rail-demurrage-accessorial-recovery",
+    "alternatives": [],
+    "path": "/features/storage-and-switching-audit",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "empty-return-rule-validation",
+    "title": "Empty-return rule validation",
+    "group": "Rail demurrage accessorial recovery",
+    "description": "Reconcile empty-return rule validation using rail contracts, tariffs, railcar registries, waybills, interchange events, actual and constructive placement, plant operating records, closures, invoices, and credits.",
+    "fields": [
+      {
+        "name": "railroadCar",
+        "label": "Railroad / Railcar",
+        "type": "text"
+      },
+      {
+        "name": "caseReference",
+        "label": "Empty-return rule validation Reference",
+        "type": "text"
+      },
+      {
+        "name": "billedAmount",
+        "label": "Railroad Billed Amount",
+        "type": "number"
+      },
+      {
+        "name": "supportedAmount",
+        "label": "Tariff-Supported Amount",
+        "type": "number"
+      },
+      {
+        "name": "evidenceState",
+        "label": "Evidence State",
+        "type": "select",
+        "options": [
+          "Complete",
+          "Incomplete",
+          "Exception"
+        ]
+      },
+      {
+        "name": "reviewDeadline",
+        "label": "Review Deadline",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-rail-demurrage-accessorial-recovery",
+        "path": "empty-return-rule-validation",
+        "source": "/Volumes/external/projects/ai-rail-demurrage-accessorial-recovery/app.config.mjs",
+        "kind": "definition",
+        "label": "Empty-return rule validation"
+      }
+    ],
+    "owner": "ai-rail-demurrage-accessorial-recovery",
+    "alternatives": [],
+    "path": "/features/empty-return-rule-validation",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "bunching-and-carrier-delay-analysis",
+    "title": "Bunching and carrier-delay analysis",
+    "group": "Rail demurrage accessorial recovery",
+    "description": "Reconcile bunching and carrier-delay analysis using rail contracts, tariffs, railcar registries, waybills, interchange events, actual and constructive placement, plant operating records, closures, invoices, and credits.",
+    "fields": [
+      {
+        "name": "railroadCar",
+        "label": "Railroad / Railcar",
+        "type": "text"
+      },
+      {
+        "name": "caseReference",
+        "label": "Bunching and carrier-delay analysis Reference",
+        "type": "text"
+      },
+      {
+        "name": "billedAmount",
+        "label": "Railroad Billed Amount",
+        "type": "number"
+      },
+      {
+        "name": "supportedAmount",
+        "label": "Tariff-Supported Amount",
+        "type": "number"
+      },
+      {
+        "name": "evidenceState",
+        "label": "Evidence State",
+        "type": "select",
+        "options": [
+          "Complete",
+          "Incomplete",
+          "Exception"
+        ]
+      },
+      {
+        "name": "reviewDeadline",
+        "label": "Review Deadline",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-rail-demurrage-accessorial-recovery",
+        "path": "bunching-and-carrier-delay-analysis",
+        "source": "/Volumes/external/projects/ai-rail-demurrage-accessorial-recovery/app.config.mjs",
+        "kind": "definition",
+        "label": "Bunching and carrier-delay analysis"
+      }
+    ],
+    "owner": "ai-rail-demurrage-accessorial-recovery",
+    "alternatives": [],
+    "path": "/features/bunching-and-carrier-delay-analysis",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "closure-and-force-majeure-evidence",
+    "title": "Closure and force-majeure evidence",
+    "group": "Rail demurrage accessorial recovery",
+    "description": "Reconcile closure and force-majeure evidence using rail contracts, tariffs, railcar registries, waybills, interchange events, actual and constructive placement, plant operating records, closures, invoices, and credits.",
+    "fields": [
+      {
+        "name": "railroadCar",
+        "label": "Railroad / Railcar",
+        "type": "text"
+      },
+      {
+        "name": "caseReference",
+        "label": "Closure and force-majeure evidence Reference",
+        "type": "text"
+      },
+      {
+        "name": "billedAmount",
+        "label": "Railroad Billed Amount",
+        "type": "number"
+      },
+      {
+        "name": "supportedAmount",
+        "label": "Tariff-Supported Amount",
+        "type": "number"
+      },
+      {
+        "name": "evidenceState",
+        "label": "Evidence State",
+        "type": "select",
+        "options": [
+          "Complete",
+          "Incomplete",
+          "Exception"
+        ]
+      },
+      {
+        "name": "reviewDeadline",
+        "label": "Review Deadline",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-rail-demurrage-accessorial-recovery",
+        "path": "closure-and-force-majeure-evidence",
+        "source": "/Volumes/external/projects/ai-rail-demurrage-accessorial-recovery/app.config.mjs",
+        "kind": "definition",
+        "label": "Closure and force-majeure evidence"
+      }
+    ],
+    "owner": "ai-rail-demurrage-accessorial-recovery",
+    "alternatives": [],
+    "path": "/features/closure-and-force-majeure-evidence",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "invoice-validation",
+    "title": "Invoice validation",
+    "group": "Rail demurrage accessorial recovery",
+    "description": "Reconcile invoice validation using rail contracts, tariffs, railcar registries, waybills, interchange events, actual and constructive placement, plant operating records, closures, invoices, and credits.",
+    "fields": [
+      {
+        "name": "railroadCar",
+        "label": "Railroad / Railcar",
+        "type": "text"
+      },
+      {
+        "name": "caseReference",
+        "label": "Invoice validation Reference",
+        "type": "text"
+      },
+      {
+        "name": "billedAmount",
+        "label": "Railroad Billed Amount",
+        "type": "number"
+      },
+      {
+        "name": "supportedAmount",
+        "label": "Tariff-Supported Amount",
+        "type": "number"
+      },
+      {
+        "name": "evidenceState",
+        "label": "Evidence State",
+        "type": "select",
+        "options": [
+          "Complete",
+          "Incomplete",
+          "Exception"
+        ]
+      },
+      {
+        "name": "reviewDeadline",
+        "label": "Review Deadline",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-rail-demurrage-accessorial-recovery",
+        "path": "invoice-validation",
+        "source": "/Volumes/external/projects/ai-rail-demurrage-accessorial-recovery/app.config.mjs",
+        "kind": "definition",
+        "label": "Invoice validation"
+      }
+    ],
+    "owner": "ai-rail-demurrage-accessorial-recovery",
+    "alternatives": [],
+    "path": "/features/invoice-validation",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "rail-dispute-package",
+    "title": "Rail dispute package",
+    "group": "Rail demurrage accessorial recovery",
+    "description": "Reconcile rail dispute package using rail contracts, tariffs, railcar registries, waybills, interchange events, actual and constructive placement, plant operating records, closures, invoices, and credits.",
+    "fields": [
+      {
+        "name": "railroadCar",
+        "label": "Railroad / Railcar",
+        "type": "text"
+      },
+      {
+        "name": "caseReference",
+        "label": "Rail dispute package Reference",
+        "type": "text"
+      },
+      {
+        "name": "billedAmount",
+        "label": "Railroad Billed Amount",
+        "type": "number"
+      },
+      {
+        "name": "supportedAmount",
+        "label": "Tariff-Supported Amount",
+        "type": "number"
+      },
+      {
+        "name": "evidenceState",
+        "label": "Evidence State",
+        "type": "select",
+        "options": [
+          "Complete",
+          "Incomplete",
+          "Exception"
+        ]
+      },
+      {
+        "name": "reviewDeadline",
+        "label": "Review Deadline",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-rail-demurrage-accessorial-recovery",
+        "path": "rail-dispute-package",
+        "source": "/Volumes/external/projects/ai-rail-demurrage-accessorial-recovery/app.config.mjs",
+        "kind": "definition",
+        "label": "Rail dispute package"
+      }
+    ],
+    "owner": "ai-rail-demurrage-accessorial-recovery",
+    "alternatives": [],
+    "path": "/features/rail-dispute-package",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "carrier-credit-tracking",
+    "title": "Carrier credit tracking",
+    "group": "Rail demurrage accessorial recovery",
+    "description": "Reconcile carrier credit tracking using rail contracts, tariffs, railcar registries, waybills, interchange events, actual and constructive placement, plant operating records, closures, invoices, and credits.",
+    "fields": [
+      {
+        "name": "railroadCar",
+        "label": "Railroad / Railcar",
+        "type": "text"
+      },
+      {
+        "name": "caseReference",
+        "label": "Carrier credit tracking Reference",
+        "type": "text"
+      },
+      {
+        "name": "billedAmount",
+        "label": "Railroad Billed Amount",
+        "type": "number"
+      },
+      {
+        "name": "supportedAmount",
+        "label": "Tariff-Supported Amount",
+        "type": "number"
+      },
+      {
+        "name": "evidenceState",
+        "label": "Evidence State",
+        "type": "select",
+        "options": [
+          "Complete",
+          "Incomplete",
+          "Exception"
+        ]
+      },
+      {
+        "name": "reviewDeadline",
+        "label": "Review Deadline",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-rail-demurrage-accessorial-recovery",
+        "path": "carrier-credit-tracking",
+        "source": "/Volumes/external/projects/ai-rail-demurrage-accessorial-recovery/app.config.mjs",
+        "kind": "definition",
+        "label": "Carrier credit tracking"
+      }
+    ],
+    "owner": "ai-rail-demurrage-accessorial-recovery",
+    "alternatives": [],
+    "path": "/features/carrier-credit-tracking",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "dwell-alerts-and-lane-analytics",
+    "title": "Dwell alerts and lane analytics",
+    "group": "Rail demurrage accessorial recovery",
+    "description": "Reconcile dwell alerts and lane analytics using rail contracts, tariffs, railcar registries, waybills, interchange events, actual and constructive placement, plant operating records, closures, invoices, and credits.",
+    "fields": [
+      {
+        "name": "railroadCar",
+        "label": "Railroad / Railcar",
+        "type": "text"
+      },
+      {
+        "name": "caseReference",
+        "label": "Dwell alerts and lane analytics Reference",
+        "type": "text"
+      },
+      {
+        "name": "billedAmount",
+        "label": "Railroad Billed Amount",
+        "type": "number"
+      },
+      {
+        "name": "supportedAmount",
+        "label": "Tariff-Supported Amount",
+        "type": "number"
+      },
+      {
+        "name": "evidenceState",
+        "label": "Evidence State",
+        "type": "select",
+        "options": [
+          "Complete",
+          "Incomplete",
+          "Exception"
+        ]
+      },
+      {
+        "name": "reviewDeadline",
+        "label": "Review Deadline",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-rail-demurrage-accessorial-recovery",
+        "path": "dwell-alerts-and-lane-analytics",
+        "source": "/Volumes/external/projects/ai-rail-demurrage-accessorial-recovery/app.config.mjs",
+        "kind": "definition",
+        "label": "Dwell alerts and lane analytics"
+      }
+    ],
+    "owner": "ai-rail-demurrage-accessorial-recovery",
+    "alternatives": [],
+    "path": "/features/dwell-alerts-and-lane-analytics",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "lease-agreement-library",
+    "title": "Lease agreement library",
+    "group": "Railcar leasing mileage repair settlement",
+    "description": "Execute lease agreement library using lease agreements, car marks, mileage events, interchange records, utilization, maintenance responsibility, repair invoices, mileage allowances, settlements, and credits.",
+    "fields": [
+      {
+        "name": "caseEntity",
+        "label": "Railcar / Lease Account",
+        "type": "text"
+      },
+      {
+        "name": "caseReference",
+        "label": "Lease agreement library Reference",
+        "type": "text"
+      },
+      {
+        "name": "chargedAmount",
+        "label": "Charged or Paid Amount",
+        "type": "number"
+      },
+      {
+        "name": "supportedAmount",
+        "label": "Evidence-Supported Amount",
+        "type": "number"
+      },
+      {
+        "name": "domainDriver",
+        "label": "Settlement Type",
+        "type": "select",
+        "options": [
+          "Lease rent",
+          "Mileage allowance",
+          "Repair responsibility"
+        ]
+      },
+      {
+        "name": "evidenceState",
+        "label": "Evidence State",
+        "type": "select",
+        "options": [
+          "Complete",
+          "Incomplete",
+          "Exception"
+        ]
+      },
+      {
+        "name": "reviewDeadline",
+        "label": "Review Deadline",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-railcar-leasing-mileage-repair-settlement",
+        "path": "lease-agreement-library",
+        "source": "/Volumes/external/projects/ai-railcar-leasing-mileage-repair-settlement/app.config.mjs",
+        "kind": "definition",
+        "label": "Lease agreement library"
+      }
+    ],
+    "owner": "ai-railcar-leasing-mileage-repair-settlement",
+    "alternatives": [],
+    "path": "/features/lease-agreement-library",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "railcar-mark-registry",
+    "title": "Railcar mark registry",
+    "group": "Railcar leasing mileage repair settlement",
+    "description": "Execute railcar mark registry using lease agreements, car marks, mileage events, interchange records, utilization, maintenance responsibility, repair invoices, mileage allowances, settlements, and credits.",
+    "fields": [
+      {
+        "name": "caseEntity",
+        "label": "Railcar / Lease Account",
+        "type": "text"
+      },
+      {
+        "name": "caseReference",
+        "label": "Railcar mark registry Reference",
+        "type": "text"
+      },
+      {
+        "name": "chargedAmount",
+        "label": "Charged or Paid Amount",
+        "type": "number"
+      },
+      {
+        "name": "supportedAmount",
+        "label": "Evidence-Supported Amount",
+        "type": "number"
+      },
+      {
+        "name": "domainDriver",
+        "label": "Settlement Type",
+        "type": "select",
+        "options": [
+          "Lease rent",
+          "Mileage allowance",
+          "Repair responsibility"
+        ]
+      },
+      {
+        "name": "evidenceState",
+        "label": "Evidence State",
+        "type": "select",
+        "options": [
+          "Complete",
+          "Incomplete",
+          "Exception"
+        ]
+      },
+      {
+        "name": "reviewDeadline",
+        "label": "Review Deadline",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-railcar-leasing-mileage-repair-settlement",
+        "path": "railcar-mark-registry",
+        "source": "/Volumes/external/projects/ai-railcar-leasing-mileage-repair-settlement/app.config.mjs",
+        "kind": "definition",
+        "label": "Railcar mark registry"
+      }
+    ],
+    "owner": "ai-railcar-leasing-mileage-repair-settlement",
+    "alternatives": [],
+    "path": "/features/railcar-mark-registry",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "interchange-event-ingestion",
+    "title": "Interchange event ingestion",
+    "group": "Railcar leasing mileage repair settlement",
+    "description": "Execute interchange event ingestion using lease agreements, car marks, mileage events, interchange records, utilization, maintenance responsibility, repair invoices, mileage allowances, settlements, and credits.",
+    "fields": [
+      {
+        "name": "caseEntity",
+        "label": "Railcar / Lease Account",
+        "type": "text"
+      },
+      {
+        "name": "caseReference",
+        "label": "Interchange event ingestion Reference",
+        "type": "text"
+      },
+      {
+        "name": "chargedAmount",
+        "label": "Charged or Paid Amount",
+        "type": "number"
+      },
+      {
+        "name": "supportedAmount",
+        "label": "Evidence-Supported Amount",
+        "type": "number"
+      },
+      {
+        "name": "domainDriver",
+        "label": "Settlement Type",
+        "type": "select",
+        "options": [
+          "Lease rent",
+          "Mileage allowance",
+          "Repair responsibility"
+        ]
+      },
+      {
+        "name": "evidenceState",
+        "label": "Evidence State",
+        "type": "select",
+        "options": [
+          "Complete",
+          "Incomplete",
+          "Exception"
+        ]
+      },
+      {
+        "name": "reviewDeadline",
+        "label": "Review Deadline",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-railcar-leasing-mileage-repair-settlement",
+        "path": "interchange-event-ingestion",
+        "source": "/Volumes/external/projects/ai-railcar-leasing-mileage-repair-settlement/app.config.mjs",
+        "kind": "definition",
+        "label": "Interchange event ingestion"
+      }
+    ],
+    "owner": "ai-railcar-leasing-mileage-repair-settlement",
+    "alternatives": [],
+    "path": "/features/interchange-event-ingestion",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "loaded-empty-mileage",
+    "title": "Loaded empty mileage",
+    "group": "Railcar leasing mileage repair settlement",
+    "description": "Execute loaded empty mileage using lease agreements, car marks, mileage events, interchange records, utilization, maintenance responsibility, repair invoices, mileage allowances, settlements, and credits.",
+    "fields": [
+      {
+        "name": "caseEntity",
+        "label": "Railcar / Lease Account",
+        "type": "text"
+      },
+      {
+        "name": "caseReference",
+        "label": "Loaded empty mileage Reference",
+        "type": "text"
+      },
+      {
+        "name": "chargedAmount",
+        "label": "Charged or Paid Amount",
+        "type": "number"
+      },
+      {
+        "name": "supportedAmount",
+        "label": "Evidence-Supported Amount",
+        "type": "number"
+      },
+      {
+        "name": "domainDriver",
+        "label": "Settlement Type",
+        "type": "select",
+        "options": [
+          "Lease rent",
+          "Mileage allowance",
+          "Repair responsibility"
+        ]
+      },
+      {
+        "name": "evidenceState",
+        "label": "Evidence State",
+        "type": "select",
+        "options": [
+          "Complete",
+          "Incomplete",
+          "Exception"
+        ]
+      },
+      {
+        "name": "reviewDeadline",
+        "label": "Review Deadline",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-railcar-leasing-mileage-repair-settlement",
+        "path": "loaded-empty-mileage",
+        "source": "/Volumes/external/projects/ai-railcar-leasing-mileage-repair-settlement/app.config.mjs",
+        "kind": "definition",
+        "label": "Loaded empty mileage"
+      }
+    ],
+    "owner": "ai-railcar-leasing-mileage-repair-settlement",
+    "alternatives": [],
+    "path": "/features/loaded-empty-mileage",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "daily-rent-calculation",
+    "title": "Daily rent calculation",
+    "group": "Railcar leasing mileage repair settlement",
+    "description": "Execute daily rent calculation using lease agreements, car marks, mileage events, interchange records, utilization, maintenance responsibility, repair invoices, mileage allowances, settlements, and credits.",
+    "fields": [
+      {
+        "name": "caseEntity",
+        "label": "Railcar / Lease Account",
+        "type": "text"
+      },
+      {
+        "name": "caseReference",
+        "label": "Daily rent calculation Reference",
+        "type": "text"
+      },
+      {
+        "name": "chargedAmount",
+        "label": "Charged or Paid Amount",
+        "type": "number"
+      },
+      {
+        "name": "supportedAmount",
+        "label": "Evidence-Supported Amount",
+        "type": "number"
+      },
+      {
+        "name": "domainDriver",
+        "label": "Settlement Type",
+        "type": "select",
+        "options": [
+          "Lease rent",
+          "Mileage allowance",
+          "Repair responsibility"
+        ]
+      },
+      {
+        "name": "evidenceState",
+        "label": "Evidence State",
+        "type": "select",
+        "options": [
+          "Complete",
+          "Incomplete",
+          "Exception"
+        ]
+      },
+      {
+        "name": "reviewDeadline",
+        "label": "Review Deadline",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-railcar-leasing-mileage-repair-settlement",
+        "path": "daily-rent-calculation",
+        "source": "/Volumes/external/projects/ai-railcar-leasing-mileage-repair-settlement/app.config.mjs",
+        "kind": "definition",
+        "label": "Daily rent calculation"
+      }
+    ],
+    "owner": "ai-railcar-leasing-mileage-repair-settlement",
+    "alternatives": [],
+    "path": "/features/daily-rent-calculation",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "mileage-allowance-calculation",
+    "title": "Mileage allowance calculation",
+    "group": "Railcar leasing mileage repair settlement",
+    "description": "Execute mileage allowance calculation using lease agreements, car marks, mileage events, interchange records, utilization, maintenance responsibility, repair invoices, mileage allowances, settlements, and credits.",
+    "fields": [
+      {
+        "name": "caseEntity",
+        "label": "Railcar / Lease Account",
+        "type": "text"
+      },
+      {
+        "name": "caseReference",
+        "label": "Mileage allowance calculation Reference",
+        "type": "text"
+      },
+      {
+        "name": "chargedAmount",
+        "label": "Charged or Paid Amount",
+        "type": "number"
+      },
+      {
+        "name": "supportedAmount",
+        "label": "Evidence-Supported Amount",
+        "type": "number"
+      },
+      {
+        "name": "domainDriver",
+        "label": "Settlement Type",
+        "type": "select",
+        "options": [
+          "Lease rent",
+          "Mileage allowance",
+          "Repair responsibility"
+        ]
+      },
+      {
+        "name": "evidenceState",
+        "label": "Evidence State",
+        "type": "select",
+        "options": [
+          "Complete",
+          "Incomplete",
+          "Exception"
+        ]
+      },
+      {
+        "name": "reviewDeadline",
+        "label": "Review Deadline",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-railcar-leasing-mileage-repair-settlement",
+        "path": "mileage-allowance-calculation",
+        "source": "/Volumes/external/projects/ai-railcar-leasing-mileage-repair-settlement/app.config.mjs",
+        "kind": "definition",
+        "label": "Mileage allowance calculation"
+      }
+    ],
+    "owner": "ai-railcar-leasing-mileage-repair-settlement",
+    "alternatives": [],
+    "path": "/features/mileage-allowance-calculation",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "utilization-threshold-control",
+    "title": "Utilization threshold control",
+    "group": "Railcar leasing mileage repair settlement",
+    "description": "Execute utilization threshold control using lease agreements, car marks, mileage events, interchange records, utilization, maintenance responsibility, repair invoices, mileage allowances, settlements, and credits.",
+    "fields": [
+      {
+        "name": "caseEntity",
+        "label": "Railcar / Lease Account",
+        "type": "text"
+      },
+      {
+        "name": "caseReference",
+        "label": "Utilization threshold control Reference",
+        "type": "text"
+      },
+      {
+        "name": "chargedAmount",
+        "label": "Charged or Paid Amount",
+        "type": "number"
+      },
+      {
+        "name": "supportedAmount",
+        "label": "Evidence-Supported Amount",
+        "type": "number"
+      },
+      {
+        "name": "domainDriver",
+        "label": "Settlement Type",
+        "type": "select",
+        "options": [
+          "Lease rent",
+          "Mileage allowance",
+          "Repair responsibility"
+        ]
+      },
+      {
+        "name": "evidenceState",
+        "label": "Evidence State",
+        "type": "select",
+        "options": [
+          "Complete",
+          "Incomplete",
+          "Exception"
+        ]
+      },
+      {
+        "name": "reviewDeadline",
+        "label": "Review Deadline",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-railcar-leasing-mileage-repair-settlement",
+        "path": "utilization-threshold-control",
+        "source": "/Volumes/external/projects/ai-railcar-leasing-mileage-repair-settlement/app.config.mjs",
+        "kind": "definition",
+        "label": "Utilization threshold control"
+      }
+    ],
+    "owner": "ai-railcar-leasing-mileage-repair-settlement",
+    "alternatives": [],
+    "path": "/features/utilization-threshold-control",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "bad-order-day-exclusion",
+    "title": "Bad-order day exclusion",
+    "group": "Railcar leasing mileage repair settlement",
+    "description": "Execute bad-order day exclusion using lease agreements, car marks, mileage events, interchange records, utilization, maintenance responsibility, repair invoices, mileage allowances, settlements, and credits.",
+    "fields": [
+      {
+        "name": "caseEntity",
+        "label": "Railcar / Lease Account",
+        "type": "text"
+      },
+      {
+        "name": "caseReference",
+        "label": "Bad-order day exclusion Reference",
+        "type": "text"
+      },
+      {
+        "name": "chargedAmount",
+        "label": "Charged or Paid Amount",
+        "type": "number"
+      },
+      {
+        "name": "supportedAmount",
+        "label": "Evidence-Supported Amount",
+        "type": "number"
+      },
+      {
+        "name": "domainDriver",
+        "label": "Settlement Type",
+        "type": "select",
+        "options": [
+          "Lease rent",
+          "Mileage allowance",
+          "Repair responsibility"
+        ]
+      },
+      {
+        "name": "evidenceState",
+        "label": "Evidence State",
+        "type": "select",
+        "options": [
+          "Complete",
+          "Incomplete",
+          "Exception"
+        ]
+      },
+      {
+        "name": "reviewDeadline",
+        "label": "Review Deadline",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-railcar-leasing-mileage-repair-settlement",
+        "path": "bad-order-day-exclusion",
+        "source": "/Volumes/external/projects/ai-railcar-leasing-mileage-repair-settlement/app.config.mjs",
+        "kind": "definition",
+        "label": "Bad-order day exclusion"
+      }
+    ],
+    "owner": "ai-railcar-leasing-mileage-repair-settlement",
+    "alternatives": [],
+    "path": "/features/bad-order-day-exclusion",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "maintenance-responsibility",
+    "title": "Maintenance responsibility",
+    "group": "Railcar leasing mileage repair settlement",
+    "description": "Execute maintenance responsibility using lease agreements, car marks, mileage events, interchange records, utilization, maintenance responsibility, repair invoices, mileage allowances, settlements, and credits.",
+    "fields": [
+      {
+        "name": "caseEntity",
+        "label": "Railcar / Lease Account",
+        "type": "text"
+      },
+      {
+        "name": "caseReference",
+        "label": "Maintenance responsibility Reference",
+        "type": "text"
+      },
+      {
+        "name": "chargedAmount",
+        "label": "Charged or Paid Amount",
+        "type": "number"
+      },
+      {
+        "name": "supportedAmount",
+        "label": "Evidence-Supported Amount",
+        "type": "number"
+      },
+      {
+        "name": "domainDriver",
+        "label": "Settlement Type",
+        "type": "select",
+        "options": [
+          "Lease rent",
+          "Mileage allowance",
+          "Repair responsibility"
+        ]
+      },
+      {
+        "name": "evidenceState",
+        "label": "Evidence State",
+        "type": "select",
+        "options": [
+          "Complete",
+          "Incomplete",
+          "Exception"
+        ]
+      },
+      {
+        "name": "reviewDeadline",
+        "label": "Review Deadline",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-railcar-leasing-mileage-repair-settlement",
+        "path": "maintenance-responsibility",
+        "source": "/Volumes/external/projects/ai-railcar-leasing-mileage-repair-settlement/app.config.mjs",
+        "kind": "definition",
+        "label": "Maintenance responsibility"
+      }
+    ],
+    "owner": "ai-railcar-leasing-mileage-repair-settlement",
+    "alternatives": [],
+    "path": "/features/maintenance-responsibility",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "repair-invoice-audit",
+    "title": "Repair invoice audit",
+    "group": "Railcar leasing mileage repair settlement",
+    "description": "Execute repair invoice audit using lease agreements, car marks, mileage events, interchange records, utilization, maintenance responsibility, repair invoices, mileage allowances, settlements, and credits.",
+    "fields": [
+      {
+        "name": "caseEntity",
+        "label": "Railcar / Lease Account",
+        "type": "text"
+      },
+      {
+        "name": "caseReference",
+        "label": "Repair invoice audit Reference",
+        "type": "text"
+      },
+      {
+        "name": "chargedAmount",
+        "label": "Charged or Paid Amount",
+        "type": "number"
+      },
+      {
+        "name": "supportedAmount",
+        "label": "Evidence-Supported Amount",
+        "type": "number"
+      },
+      {
+        "name": "domainDriver",
+        "label": "Settlement Type",
+        "type": "select",
+        "options": [
+          "Lease rent",
+          "Mileage allowance",
+          "Repair responsibility"
+        ]
+      },
+      {
+        "name": "evidenceState",
+        "label": "Evidence State",
+        "type": "select",
+        "options": [
+          "Complete",
+          "Incomplete",
+          "Exception"
+        ]
+      },
+      {
+        "name": "reviewDeadline",
+        "label": "Review Deadline",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-railcar-leasing-mileage-repair-settlement",
+        "path": "repair-invoice-audit",
+        "source": "/Volumes/external/projects/ai-railcar-leasing-mileage-repair-settlement/app.config.mjs",
+        "kind": "definition",
+        "label": "Repair invoice audit"
+      }
+    ],
+    "owner": "ai-railcar-leasing-mileage-repair-settlement",
+    "alternatives": [],
+    "path": "/features/repair-invoice-audit",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "aar-rule-validation",
+    "title": "AAR rule validation",
+    "group": "Railcar leasing mileage repair settlement",
+    "description": "Execute aar rule validation using lease agreements, car marks, mileage events, interchange records, utilization, maintenance responsibility, repair invoices, mileage allowances, settlements, and credits.",
+    "fields": [
+      {
+        "name": "caseEntity",
+        "label": "Railcar / Lease Account",
+        "type": "text"
+      },
+      {
+        "name": "caseReference",
+        "label": "AAR rule validation Reference",
+        "type": "text"
+      },
+      {
+        "name": "chargedAmount",
+        "label": "Charged or Paid Amount",
+        "type": "number"
+      },
+      {
+        "name": "supportedAmount",
+        "label": "Evidence-Supported Amount",
+        "type": "number"
+      },
+      {
+        "name": "domainDriver",
+        "label": "Settlement Type",
+        "type": "select",
+        "options": [
+          "Lease rent",
+          "Mileage allowance",
+          "Repair responsibility"
+        ]
+      },
+      {
+        "name": "evidenceState",
+        "label": "Evidence State",
+        "type": "select",
+        "options": [
+          "Complete",
+          "Incomplete",
+          "Exception"
+        ]
+      },
+      {
+        "name": "reviewDeadline",
+        "label": "Review Deadline",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-railcar-leasing-mileage-repair-settlement",
+        "path": "aar-rule-validation",
+        "source": "/Volumes/external/projects/ai-railcar-leasing-mileage-repair-settlement/app.config.mjs",
+        "kind": "definition",
+        "label": "AAR rule validation"
+      }
+    ],
+    "owner": "ai-railcar-leasing-mileage-repair-settlement",
+    "alternatives": [],
+    "path": "/features/aar-rule-validation",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "owner-lessee-settlement",
+    "title": "Owner lessee settlement",
+    "group": "Railcar leasing mileage repair settlement",
+    "description": "Execute owner lessee settlement using lease agreements, car marks, mileage events, interchange records, utilization, maintenance responsibility, repair invoices, mileage allowances, settlements, and credits.",
+    "fields": [
+      {
+        "name": "caseEntity",
+        "label": "Railcar / Lease Account",
+        "type": "text"
+      },
+      {
+        "name": "caseReference",
+        "label": "Owner lessee settlement Reference",
+        "type": "text"
+      },
+      {
+        "name": "chargedAmount",
+        "label": "Charged or Paid Amount",
+        "type": "number"
+      },
+      {
+        "name": "supportedAmount",
+        "label": "Evidence-Supported Amount",
+        "type": "number"
+      },
+      {
+        "name": "domainDriver",
+        "label": "Settlement Type",
+        "type": "select",
+        "options": [
+          "Lease rent",
+          "Mileage allowance",
+          "Repair responsibility"
+        ]
+      },
+      {
+        "name": "evidenceState",
+        "label": "Evidence State",
+        "type": "select",
+        "options": [
+          "Complete",
+          "Incomplete",
+          "Exception"
+        ]
+      },
+      {
+        "name": "reviewDeadline",
+        "label": "Review Deadline",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-railcar-leasing-mileage-repair-settlement",
+        "path": "owner-lessee-settlement",
+        "source": "/Volumes/external/projects/ai-railcar-leasing-mileage-repair-settlement/app.config.mjs",
+        "kind": "definition",
+        "label": "Owner lessee settlement"
+      }
+    ],
+    "owner": "ai-railcar-leasing-mileage-repair-settlement",
+    "alternatives": [],
+    "path": "/features/owner-lessee-settlement",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "dispute-workflow",
+    "title": "Dispute workflow",
+    "group": "Railcar leasing mileage repair settlement",
+    "description": "Execute dispute workflow using lease agreements, car marks, mileage events, interchange records, utilization, maintenance responsibility, repair invoices, mileage allowances, settlements, and credits.",
+    "fields": [
+      {
+        "name": "caseEntity",
+        "label": "Railcar / Lease Account",
+        "type": "text"
+      },
+      {
+        "name": "caseReference",
+        "label": "Dispute workflow Reference",
+        "type": "text"
+      },
+      {
+        "name": "chargedAmount",
+        "label": "Charged or Paid Amount",
+        "type": "number"
+      },
+      {
+        "name": "supportedAmount",
+        "label": "Evidence-Supported Amount",
+        "type": "number"
+      },
+      {
+        "name": "domainDriver",
+        "label": "Settlement Type",
+        "type": "select",
+        "options": [
+          "Lease rent",
+          "Mileage allowance",
+          "Repair responsibility"
+        ]
+      },
+      {
+        "name": "evidenceState",
+        "label": "Evidence State",
+        "type": "select",
+        "options": [
+          "Complete",
+          "Incomplete",
+          "Exception"
+        ]
+      },
+      {
+        "name": "reviewDeadline",
+        "label": "Review Deadline",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-railcar-leasing-mileage-repair-settlement",
+        "path": "dispute-workflow",
+        "source": "/Volumes/external/projects/ai-railcar-leasing-mileage-repair-settlement/app.config.mjs",
+        "kind": "definition",
+        "label": "Dispute workflow"
+      }
+    ],
+    "owner": "ai-railcar-leasing-mileage-repair-settlement",
+    "alternatives": [],
+    "path": "/features/dispute-workflow",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "cash-credit-reconciliation",
+    "title": "Cash credit reconciliation",
+    "group": "Railcar leasing mileage repair settlement",
+    "description": "Execute cash credit reconciliation using lease agreements, car marks, mileage events, interchange records, utilization, maintenance responsibility, repair invoices, mileage allowances, settlements, and credits.",
+    "fields": [
+      {
+        "name": "caseEntity",
+        "label": "Railcar / Lease Account",
+        "type": "text"
+      },
+      {
+        "name": "caseReference",
+        "label": "Cash credit reconciliation Reference",
+        "type": "text"
+      },
+      {
+        "name": "chargedAmount",
+        "label": "Charged or Paid Amount",
+        "type": "number"
+      },
+      {
+        "name": "supportedAmount",
+        "label": "Evidence-Supported Amount",
+        "type": "number"
+      },
+      {
+        "name": "domainDriver",
+        "label": "Settlement Type",
+        "type": "select",
+        "options": [
+          "Lease rent",
+          "Mileage allowance",
+          "Repair responsibility"
+        ]
+      },
+      {
+        "name": "evidenceState",
+        "label": "Evidence State",
+        "type": "select",
+        "options": [
+          "Complete",
+          "Incomplete",
+          "Exception"
+        ]
+      },
+      {
+        "name": "reviewDeadline",
+        "label": "Review Deadline",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-railcar-leasing-mileage-repair-settlement",
+        "path": "cash-credit-reconciliation",
+        "source": "/Volumes/external/projects/ai-railcar-leasing-mileage-repair-settlement/app.config.mjs",
+        "kind": "definition",
+        "label": "Cash credit reconciliation"
+      }
+    ],
+    "owner": "ai-railcar-leasing-mileage-repair-settlement",
+    "alternatives": [],
+    "path": "/features/cash-credit-reconciliation",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "fleet-counterparty-analytics",
+    "title": "Fleet counterparty analytics",
+    "group": "Railcar leasing mileage repair settlement",
+    "description": "Execute fleet counterparty analytics using lease agreements, car marks, mileage events, interchange records, utilization, maintenance responsibility, repair invoices, mileage allowances, settlements, and credits.",
+    "fields": [
+      {
+        "name": "caseEntity",
+        "label": "Railcar / Lease Account",
+        "type": "text"
+      },
+      {
+        "name": "caseReference",
+        "label": "Fleet counterparty analytics Reference",
+        "type": "text"
+      },
+      {
+        "name": "chargedAmount",
+        "label": "Charged or Paid Amount",
+        "type": "number"
+      },
+      {
+        "name": "supportedAmount",
+        "label": "Evidence-Supported Amount",
+        "type": "number"
+      },
+      {
+        "name": "domainDriver",
+        "label": "Settlement Type",
+        "type": "select",
+        "options": [
+          "Lease rent",
+          "Mileage allowance",
+          "Repair responsibility"
+        ]
+      },
+      {
+        "name": "evidenceState",
+        "label": "Evidence State",
+        "type": "select",
+        "options": [
+          "Complete",
+          "Incomplete",
+          "Exception"
+        ]
+      },
+      {
+        "name": "reviewDeadline",
+        "label": "Review Deadline",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-railcar-leasing-mileage-repair-settlement",
+        "path": "fleet-counterparty-analytics",
+        "source": "/Volumes/external/projects/ai-railcar-leasing-mileage-repair-settlement/app.config.mjs",
+        "kind": "definition",
+        "label": "Fleet counterparty analytics"
+      }
+    ],
+    "owner": "ai-railcar-leasing-mileage-repair-settlement",
+    "alternatives": [],
+    "path": "/features/fleet-counterparty-analytics",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "rules",
+    "title": "Rules & Jobs",
+    "group": "Rail maintenance safety operations suite",
+    "description": "Organize rules & jobs and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "rail-maintenance-safety-operations-suite",
+        "path": "rules",
+        "source": "/Volumes/external/projects/rail-maintenance-safety-operations-suite/public/app.js",
+        "kind": "definition",
+        "label": "Rules & Jobs"
+      }
+    ],
+    "owner": "rail-maintenance-safety-operations-suite",
+    "alternatives": [],
+    "path": "/features/rules",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  }
+]

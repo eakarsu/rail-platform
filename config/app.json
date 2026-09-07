@@ -1,0 +1,23 @@
+{
+  "id": "rail-platform",
+  "title": "Rail operations & safety",
+  "buyer": "Rail infrastructure and operating teams",
+  "sourceCount": 4,
+  "sources": [
+    "ai-rail-crossing-inventory-and-coordination",
+    "ai-rail-demurrage-accessorial-recovery",
+    "ai-railcar-leasing-mileage-repair-settlement",
+    "rail-maintenance-safety-operations-suite"
+  ],
+  "status": "proposed build; not implemented",
+  "canonicalFeatureStatus": "Requires feature-level mapping and workflow migration; source route counts are not feature-completion counts.",
+  "port": 46033,
+  "productName": "Rail operations Workspace",
+  "runtimeVersion": "1.0.0",
+  "sourceRoots": [
+    "/Volumes/external/projects/ai-rail-crossing-inventory-and-coordination",
+    "/Volumes/external/projects/ai-rail-demurrage-accessorial-recovery",
+    "/Volumes/external/projects/ai-railcar-leasing-mileage-repair-settlement",
+    "/Volumes/external/projects/rail-maintenance-safety-operations-suite"
+  ]
+}
